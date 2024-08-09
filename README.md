@@ -14,7 +14,7 @@ Prerequisites: Pandas, NumPy, SHAP (SHapley Additive exPlanations), Scikit-learn
    - [output file path] is the file path for the dataset that contains the incoming patients with recommendations given
 
 Sample Output:
-![image1](image/image1.png)
+![image1](images/image1.png)
 
 ---
   
@@ -35,7 +35,7 @@ We analyze whether a sample with features x1, ..., xi can benefit from iCARE rec
 5. Generate performance summary comparing global and iCARE recommendations
 
 Sample Output:
-![image2](image/image2.png)
+![image2](images/image2.png)
 
 ---
 
@@ -57,4 +57,4 @@ We analyze whether a sample with x number of initial features benefit from iCARE
 5. Generate performance summary comparing global and iCARE recommendations
 
 Sample Output:
-![image3](image/image3.png)
+![image3](images/image3.png)
