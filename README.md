@@ -20,7 +20,8 @@ Instructions for analyzing sample (Does the feature subset x1, ..., xi benefits 
    - [df2 file path] is the file path of the dataset that contains information of incoming patients
    - NOTE: [df2 file path] column names must be consistent with [df1 file path] column names. (Meaning [df2 file path] contain column names that are subset of [df1 file path])
    - [y_col] is the name of the target column in [df1 file path]
-   - [iteration] is the number of times a random sample representing incoming patients are created and evaluated\n
+   - [iteration] is the number of times a random sample representing incoming patients are created and evaluated
+     
 We analyze whether a sample with features x1, ..., xi can benefit from iCARE recommendations. This is achieve by the following steps:
 1. Take a sample from the pool of known cases dataset and prune the features so it only has the feature x1, ..., xi.
 2. Generate global and iCARE recommendations
@@ -36,7 +37,8 @@ Instructions for analyzing feature space (Does incoming patients with x number o
    - [number_of_feature] is the number of initial feature the random sample is going to contain
    - [static_features] is a list of user-defined features that the sample must have
    - i.e: number_of_feature = 4 and static_feature = age,sex means that the random sample created will always contain [age,sex] initial feature and 2 randomly selected features for a total of 4 features
-   - [iteration] is the number of times a random sample representing incoming patients are created and evaluated\n
+   - [iteration] is the number of times a random sample representing incoming patients are created and evaluated
+     
 We analyze whether a sample with x number of initial features benefit from iCARE recommendations. This is achieve by the following steps:
 1. Take a sample from the pool of known cases dataset and prune the features so it only has x number of randomly selected initial feature (if static_feature is given, those feature will always be included)
 2. Generate global and iCARE recommendations
