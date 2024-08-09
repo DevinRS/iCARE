@@ -13,6 +13,9 @@ Prerequisites: Pandas, NumPy, SHAP (SHapley Additive exPlanations), Scikit-learn
    - [y_col] is the name of the target column in [df1 file path]
    - [output file path] is the file path for the dataset that contains the incoming patients with recommendations given
 
+Sample Output:
+![image1](image/image1.png)
+
 ---
   
 ## Instructions for analyzing sample (Does the feature subset x1, ..., xi benefits from iCARE recommendations):
@@ -30,6 +33,9 @@ We analyze whether a sample with features x1, ..., xi can benefit from iCARE rec
 3. Append the recommended feature to the sample and make prediction
 4. Repeat until iteration number is achieved
 5. Generate performance summary comparing global and iCARE recommendations
+
+Sample Output:
+![image2](image/image2.png)
 
 ---
 
@@ -49,4 +55,6 @@ We analyze whether a sample with x number of initial features benefit from iCARE
 3. Append the recommended feature to the sample and make prediction
 4. Repeat until iteration number is achieved
 5. Generate performance summary comparing global and iCARE recommendations
- 
+
+Sample Output:
+![image3](image/image3.png)
