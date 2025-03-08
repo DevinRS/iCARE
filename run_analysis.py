@@ -8,11 +8,27 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.utils._testing import ignore_warnings
 from sklearn.exceptions import ConvergenceWarning
 
-# function: feature_oracle(df: pd.DataFrame, sample: pd.DataFrame, feature_list: list) -> pd.DataFrame
-# Given a complete dataframe and a sample from that dataframe, find the same sample in df and return the features in feature_list.
+# # function: feature_oracle(df: pd.DataFrame, sample: pd.DataFrame, feature_list: list) -> pd.DataFrame
+# # Given a complete dataframe and a sample from that dataframe, find the same sample in df and return the features in feature_list.
+# def feature_oracle(df: pd.DataFrame, sample: pd.DataFrame, feature_list: list) -> pd.DataFrame:
+#     # Find the corresponding sample in the dataframe
+#     sample = df.iloc[sample.index]
+#     # only include the features in feature_list
+#     sample = sample[feature_list]
+#     return sample
+
 def feature_oracle(df: pd.DataFrame, sample: pd.DataFrame, feature_list: list) -> pd.DataFrame:
+    # Print debug information
+    # print("Original DataFrame indices:", df.index)
+    # print("Sample DataFrame indices:", sample.index)
+    
+    # Ensure the sample indices are valid
+    valid_indices = sample.index.intersection(df.index)
+    if len(valid_indices) != len(sample.index):
+        raise IndexError("Some sample indices are out-of-bounds in the original DataFrame.")
+    
     # Find the corresponding sample in the dataframe
-    sample = df.iloc[sample.index]
+    sample = df.loc[valid_indices]
     # only include the features in feature_list
     sample = sample[feature_list]
     return sample
