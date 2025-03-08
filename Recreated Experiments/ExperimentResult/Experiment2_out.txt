@@ -1,0 +1,345 @@
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 3 features
+=====================================
+Iteration: 1/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | 
+Iteration: 2/10 | Polyuria | Polyuria | ['Age' 'Gender' 'Obesity' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'class' 'Polyuria'] | 
+Iteration: 3/10 | Polydipsia | muscle stiffness | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'muscle stiffness'] | 
+Iteration: 4/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'Polyuria'] | 
+Iteration: 5/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'Polyuria'] | 
+Iteration: 6/10 | Polydipsia | sudden weight loss | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'sudden weight loss'] | 
+Iteration: 7/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'Polyuria'] | 
+Iteration: 8/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | 
+Iteration: 9/10 | Polydipsia | sudden weight loss | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'sudden weight loss'] | 
+Iteration: 10/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'class' 'Polydipsia'] | 
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 6 features
+=====================================
+Iteration: 1/10 | Polyuria | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] |
+Iteration: 2/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] |
+Iteration: 3/10 | Polydipsia | partial paresis | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'partial paresis'] |
+Iteration: 4/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] |
+Iteration: 5/10 | Polyuria | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polyuria'] |
+Iteration: 6/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] |
+Iteration: 7/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polyuria'] |
+Iteration: 8/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] |
+Iteration: 9/10 | Polyuria | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] |
+Iteration: 10/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'class' 'Polydipsia'] |
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 9 features
+=====================================
+Iteration: 1/10 | Polyuria | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] |
+Iteration: 2/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] |
+Iteration: 3/10 | Polyuria | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] |
+Iteration: 4/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] |
+Iteration: 5/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polyuria'] |
+Iteration: 6/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] |
+Iteration: 7/10 | Polydipsia | partial paresis | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class'
+ 'partial paresis'] |
+Iteration: 8/10 | Polydipsia | Itching | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Itching'] |
+Iteration: 9/10 | Polydipsia | Irritability | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Irritability'] |
+Iteration: 10/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'class' 'Polydipsia'] |
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 12 features
+=====================================
+Iteration: 1/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 2/10 | Polyuria | Itching | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Itching'] |
+Iteration: 3/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 4/10 | Polyuria | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 5/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] |
+Iteration: 6/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] |
+Iteration: 7/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] |
+Iteration: 8/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] |
+Iteration: 9/10 | Polyuria | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 10/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'class' 'Polydipsia'] |
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 14 features
+=====================================
+Iteration: 1/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] |
+Iteration: 2/10 | Polyuria | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] |
+Iteration: 3/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] |
+Iteration: 4/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] |
+Iteration: 5/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] |
+Iteration: 6/10 | Polyuria | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] |
+Iteration: 7/10 | Polyuria | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] |
+Iteration: 8/10 | Polydipsia | Polyuria | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] |
+Iteration: 9/10 | Polyuria | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] |
+Iteration: 10/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'class'
+ 'Polydipsia'] |
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 15 features
+=====================================
+Iteration: 1/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] |
+Iteration: 2/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] |
+Iteration: 3/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] |
+Iteration: 4/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] |
+Iteration: 5/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | 
+Iteration: 6/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | 
+Iteration: 7/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | 
+Iteration: 8/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | 
+Iteration: 9/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] |
+Iteration: 10/10 | Polydipsia | Polydipsia | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Obesity' 'Alopecia' 'muscle stiffness' 'visual blurring'
+ 'weakness' 'delayed healing' 'sudden weight loss' 'Polyphagia'
+ 'Genital thrush' 'partial paresis' 'Irritability' 'Itching' 'Polyuria'
+ 'class' 'Polydipsia'] |
+Iteration 1
+Number of Initial Features: 3
+ROC-AUC Score:
+Global: 0.8966266125270069
+iCARE: 0.9443344053207227
+Global + LW: 0.9372967798390827
+iCARE + LW: 0.9641124444171044
+Accuracy Score:
+Global: 0.8576923076923076
+iCARE: 0.8990384615384615
+Global + LW: 0.8778846153846155
+iCARE + LW: 0.926923076923077
+Iteration 2
+Number of Initial Features: 6
+ROC-AUC Score:
+Global: 0.8859656279868066
+iCARE: 0.957982298654984
+Global + LW: 0.9920977029636744
+iCARE + LW: 0.9942483478978961
+Accuracy Score:
+Global: 0.8471153846153847
+iCARE: 0.9153846153846154
+Global + LW: 0.9461538461538461
+iCARE + LW: 0.9500000000000002
+Iteration 3
+Number of Initial Features: 9
+ROC-AUC Score:
+Global: 0.904906158499555
+iCARE: 0.9520457833033735
+Global + LW: 0.9937882564230419
+iCARE + LW: 0.994441222824865
+Accuracy Score:
+Global: 0.8413461538461539
+iCARE: 0.9009615384615385
+Global + LW: 0.951923076923077
+iCARE + LW: 0.9528846153846156
+Iteration 4
+Number of Initial Features: 12
+ROC-AUC Score:
+Global: 0.9413868993317926
+iCARE: 0.9669608838095073
+Global + LW: 0.992813445447579
+iCARE + LW: 0.9930849313851574
+Accuracy Score:
+Global: 0.891346153846154
+iCARE: 0.9230769230769231
+Global + LW: 0.9490384615384615
+iCARE + LW: 0.9471153846153845
+Iteration 5
+Number of Initial Features: 14
+ROC-AUC Score:
+Global: 0.9509517078592241
+iCARE: 0.9726148341630371
+Global + LW: 0.994995549631122
+iCARE + LW: 0.9953853121734675
+Accuracy Score:
+Global: 0.8798076923076923
+iCARE: 0.9288461538461539
+Global + LW: 0.9538461538461538
+iCARE + LW: 0.9576923076923078
+Iteration 6
+Number of Initial Features: 15
+ROC-AUC Score:
+Global: 0.9680734258706165
+iCARE: 0.9680734258706165
+Global + LW: 0.9952971409528464
+iCARE + LW: 0.9952971409528464
+Accuracy Score:
+Global: 0.9115384615384615
+iCARE: 0.9115384615384615
+Global + LW: 0.9586538461538462
+iCARE + LW: 0.9586538461538462

@@ -1,0 +1,204 @@
+Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 2 features
+=====================================
+Iteration: 1/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | 
+Iteration: 2/10 | ST_Slope | ExerciseAngina | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | 
+Iteration: 3/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | 
+Iteration: 4/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | 
+Iteration: 5/10 | ST_Slope | ChestPainType | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ChestPainType'] | 
+Iteration: 6/10 | ST_Slope | Oldpeak | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'Oldpeak'] | 
+Iteration: 7/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | 
+Iteration: 8/10 | ST_Slope | ExerciseAngina | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | 
+Iteration: 9/10 | ST_Slope | MaxHR | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'MaxHR'] | 
+Iteration: 10/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | 
+=====================================
+
+Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 4 features
+=====================================
+Iteration: 1/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 2/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 3/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 4/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 5/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 6/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 7/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 8/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 9/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 10/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 6 features
+=====================================
+Iteration: 1/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 2/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 3/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 4/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 5/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 6/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 7/10 | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ChestPainType'] |
+Iteration: 8/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 9/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 10/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 8 features
+=====================================
+Iteration: 1/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 2/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 3/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 4/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 5/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 6/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 7/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 8/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 9/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 10/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 10 features
+=====================================
+Iteration: 1/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 2/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 3/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 4/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 5/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 6/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 7/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 8/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 9/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 10/10 | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
+ 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+=====================================
+
+Iteration 1
+Number of Initial Features: 2
+=====================================
+ROC-AUC Score:
+Global: 0.8666891069837502
+iCARE: 0.847111144873238
+Global + LW: 0.8281363826272411
+iCARE + LW: 0.8054261906378501
+Accuracy Score:
+Global: 0.8131147540983606
+iCARE: 0.7726775956284152
+Global + LW: 0.7852459016393443
+iCARE + LW: 0.7557377049180327
+=====================================
+
+Iteration 2
+Number of Initial Features: 4
+=====================================
+ROC-AUC Score:
+Global: 0.8678136067384454
+iCARE: 0.8623162665032332
+Global + LW: 0.8342415850268022
+iCARE + LW: 0.851731756261179
+Accuracy Score:
+Global: 0.8284153005464482
+iCARE: 0.8021857923497265
+Global + LW: 0.8021857923497265
+iCARE + LW: 0.7989071038251365
+=====================================
+
+Iteration 3
+Number of Initial Features: 6
+=====================================
+ROC-AUC Score:
+Global: 0.8784391570446717
+iCARE: 0.8838461436740953
+Global + LW: 0.8868531432087178
+iCARE + LW: 0.890971693340334
+Accuracy Score:
+Global: 0.8240437158469944
+iCARE: 0.83224043715847
+Global + LW: 0.8262295081967214
+iCARE + LW: 0.833879781420765
+=====================================
+
+Iteration 4
+Number of Initial Features: 8
+=====================================
+ROC-AUC Score:
+Global: 0.8798501592598631
+iCARE: 0.8810340244662841
+Global + LW: 0.8861425103674542
+iCARE + LW: 0.8871823253768756
+Accuracy Score:
+Global: 0.8360655737704917
+iCARE: 0.8360655737704917
+Global + LW: 0.839344262295082
+iCARE + LW: 0.8415300546448089
+=====================================
+
+Iteration 5
+Number of Initial Features: 10
+=====================================
+ROC-AUC Score:
+Global: 0.9186295058695564
+iCARE: 0.9186295058695564
+Global + LW: 0.92719596936427
+iCARE + LW: 0.92719596936427
+Accuracy Score:
+Global: 0.8562841530054645
+iCARE: 0.8562841530054645
+Global + LW: 0.8590163934426231
+iCARE + LW: 0.8590163934426231
+=====================================

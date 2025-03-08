@@ -1,4 +1,4 @@
-from run_analysis import run_analysis
+from run_analysis import run_analysis_lw_split
 import pandas as pd
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import accuracy_score
@@ -24,32 +24,52 @@ for src in src_list:
     df = pd.read_csv(src)
 
     # Run the analysis
-    global_prediction, icare_prediction, y_actual, global_lw_prediction, icare_lw_prediction = run_analysis(df, 'Target', 1, static_features=['X'], iteration=500, lw=True)
-    # ROC-AUC calculation
-    global_roc = roc_auc_score(y_actual, global_prediction)
-    icare_roc = roc_auc_score(y_actual, icare_prediction)
-    global_lw_roc = roc_auc_score(y_actual, global_lw_prediction)
-    icare_lw_roc = roc_auc_score(y_actual, icare_lw_prediction)
+    global_prediction, icare_prediction, global_lw_prediction, icare_lw_prediction, y_actual = run_analysis_lw_split(df, 'Target', 1, static_features=['X'], iteration=10, split=0.2)
+    global_roc = 0
+    icare_roc = 0
+    global_lw_roc = 0
+    icare_lw_roc = 0
+    global_accuracy = 0
+    icare_accuracy = 0
+    global_lw_accuracy = 0
+    icare_lw_accuracy = 0
+
+    for i in range(10):
+        # ROC-AUC calculation
+        global_roc += roc_auc_score(y_actual[i], global_prediction[i])
+        icare_roc += roc_auc_score(y_actual[i], icare_prediction[i])
+        global_lw_roc += roc_auc_score(y_actual[i], global_lw_prediction[i])
+        icare_lw_roc += roc_auc_score(y_actual[i], icare_lw_prediction[i])
+    global_roc /= 10
+    icare_roc /= 10
+    global_lw_roc /= 10
+    icare_lw_roc /= 10
     print("ROC-AUC:")
     print(f"Global Recommendation: {global_roc}")
     print(f"Icare Recommendation: {icare_roc}")
     print(f"Global Recommendation with LW: {global_lw_roc}")
     print(f"Icare Recommendation with LW: {icare_lw_roc}")
+    print("=====================================")
     roc = [global_roc, icare_roc, global_lw_roc, icare_lw_roc]
     roc_result.append(roc)
 
     # Change prediction to binary
-    global_prediction = [1 if x >= 0.5 else 0 for x in global_prediction]
-    icare_prediction = [1 if x >= 0.5 else 0 for x in icare_prediction]
-    global_lw_prediction = [1 if x >= 0.5 else 0 for x in global_lw_prediction]
-    icare_lw_prediction = [1 if x >= 0.5 else 0 for x in icare_lw_prediction]
+    for i in range(10):
+        global_prediction[i] = [1 if x >= 0.5 else 0 for x in global_prediction[i]]
+        icare_prediction[i] = [1 if x >= 0.5 else 0 for x in icare_prediction[i]]
+        global_lw_prediction[i] = [1 if x >= 0.5 else 0 for x in global_lw_prediction[i]]
+        icare_lw_prediction[i] = [1 if x >= 0.5 else 0 for x in icare_lw_prediction[i]]
 
     # Accuracy calculation
-    global_accuracy = accuracy_score(y_actual, global_prediction)
-    icare_accuracy = accuracy_score(y_actual, icare_prediction)
-    global_lw_accuracy = accuracy_score(y_actual, global_lw_prediction)
-    icare_lw_accuracy = accuracy_score(y_actual, icare_lw_prediction)
-
+    for i in range(10):
+        global_accuracy += accuracy_score(y_actual[i], global_prediction[i])
+        icare_accuracy += accuracy_score(y_actual[i], icare_prediction[i])
+        global_lw_accuracy += accuracy_score(y_actual[i], global_lw_prediction[i])
+        icare_lw_accuracy += accuracy_score(y_actual[i], icare_lw_prediction[i])
+    global_accuracy /= 10
+    icare_accuracy /= 10
+    global_lw_accuracy /= 10
+    icare_lw_accuracy /= 10
     print("Accuracy:")
     print(f"Global Recommendation: {global_accuracy}")
     print(f"Icare Recommendation: {icare_accuracy}")

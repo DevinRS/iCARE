@@ -1,0 +1,768 @@
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 3 features
+=====================================
+Iteration: 1/200 | Polydipsia | Polydipsia | Polyuria | ['Age' 'Gender' 'Itching' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Itching' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Itching' 'class' 'Polyuria'] |
+Iteration: 21/200 | Polydipsia | Polydipsia | Polyuria | ['Age' 'Gender' 'visual blurring' 'class' 'Polydipsia'] | ['Age' 'Gender' 'visual blurring' 'class' 'Polydipsia'] | ['Age' 'Gender' 'visual blurring' 'class' 'Polyuria'] |
+Iteration: 41/200 | Polydipsia | Polyuria | Polyuria | ['Age' 'Gender' 'visual blurring' 'class' 'Polydipsia'] | ['Age' 'Gender' 'visual blurring' 'class' 'Polyuria'] | ['Age' 'Gender' 'visual blurring' 'class' 'Polyuria'] |
+Iteration: 61/200 | Polydipsia | Polyuria | Polyuria | ['Age' 'Gender' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'partial paresis' 'class' 'Polyuria'] | ['Age' 'Gender' 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 81/200 | Polydipsia | Itching | Polyuria | ['Age' 'Gender' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'partial paresis' 'class' 'Itching'] | ['Age' 'Gender' 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 101/200 | Polydipsia | visual blurring | Polydipsia | ['Age' 'Gender' 'Polyuria' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Polyuria' 'class' 'visual blurring'] | ['Age' 'Gender' 'Polyuria' 'class' 'Polydipsia'] |
+Iteration: 121/200 | Polydipsia | Alopecia | Polyuria | ['Age' 'Gender' 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'partial paresis' 'class' 'Alopecia'] | ['Age' 'Gender' 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 141/200 | Polydipsia | Polydipsia | Polydipsia | ['Age' 'Gender' 'Polyuria' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Polyuria' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Polyuria' 'class' 'Polydipsia'] |
+Iteration: 161/200 | Polydipsia | sudden weight loss | Polyuria | ['Age' 'Gender' 'Alopecia' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Alopecia' 'class' 'sudden weight loss'] | ['Age' 'Gender' 'Alopecia' 'class' 'Polyuria'] |
+Iteration: 181/200 | Polydipsia | Polyuria | Polyuria | ['Age' 'Gender' 'muscle stiffness' 'class' 'Polydipsia'] | ['Age' 'Gender' 'muscle stiffness' 'class' 'Polyuria'] | ['Age' 'Gender' 'muscle stiffness' 'class' 'Polyuria'] |
+Calculating F1 Score
+Global Recommendation: 0.825
+Icare Recommendation: 0.8599999999999999
+E-guided Recommendation: 0.855
+=====================================
+
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 6 features
+=====================================
+Iteration: 1/200 | Polyuria | Polyuria | Genital thrush | ['Age' 'Gender' 'sudden weight loss' 'partial paresis' 'Polydipsia'
+ 'Itching' 'class' 'Polyuria'] | ['Age' 'Gender' 'sudden weight loss' 'partial paresis' 'Polydipsia'
+ 'Itching' 'class' 'Polyuria'] | ['Age' 'Gender' 'sudden weight loss' 'partial paresis' 'Polydipsia'
+ 'Itching' 'class' 'Genital thrush'] |
+Iteration: 21/200 | Polydipsia | Polydipsia | Genital thrush | ['Age' 'Gender' 'Itching' 'Polyphagia' 'Polyuria' 'Obesity' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Itching' 'Polyphagia' 'Polyuria' 'Obesity' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'Itching' 'Polyphagia' 'Polyuria' 'Obesity' 'class'
+ 'Genital thrush'] |
+Iteration: 41/200 | Polydipsia | Polydipsia | Genital thrush | ['Age' 'Gender' 'visual blurring' 'Alopecia' 'weakness' 'Polyuria' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'visual blurring' 'Alopecia' 'weakness' 'Polyuria' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'visual blurring' 'Alopecia' 'weakness' 'Polyuria' 'class'
+ 'Genital thrush'] |
+Iteration: 61/200 | Polydipsia | Polydipsia | Itching | ['Age' 'Gender' 'Genital thrush' 'Polyuria' 'Polyphagia' 'partial paresis'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Genital thrush' 'Polyuria' 'Polyphagia' 'partial paresis'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Genital thrush' 'Polyuria' 'Polyphagia' 'partial paresis'
+ 'class' 'Itching'] |
+Iteration: 81/200 | Polyuria | Polyuria | Irritability | ['Age' 'Gender' 'Polydipsia' 'Polyphagia' 'weakness' 'Itching' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Polydipsia' 'Polyphagia' 'weakness' 'Itching' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Polydipsia' 'Polyphagia' 'weakness' 'Itching' 'class'
+ 'Irritability'] |
+Iteration: 101/200 | Polydipsia | Polyuria | weakness | ['Age' 'Gender' 'visual blurring' 'Obesity' 'Itching' 'Alopecia' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'visual blurring' 'Obesity' 'Itching' 'Alopecia' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'visual blurring' 'Obesity' 'Itching' 'Alopecia' 'class'
+ 'weakness'] |
+Iteration: 121/200 | Polydipsia | Polydipsia | visual blurring | ['Age' 'Gender' 'sudden weight loss' 'Alopecia' 'partial paresis'
+ 'Genital thrush' 'class' 'Polydipsia'] | ['Age' 'Gender' 'sudden weight loss' 'Alopecia' 'partial paresis'
+ 'Genital thrush' 'class' 'Polydipsia'] | ['Age' 'Gender' 'sudden weight loss' 'Alopecia' 'partial paresis'
+ 'Genital thrush' 'class' 'visual blurring'] |
+Iteration: 141/200 | Polydipsia | Polyuria | visual blurring | ['Age' 'Gender' 'Itching' 'Genital thrush' 'Alopecia' 'sudden weight loss'
+ 'class' 'Polydipsia'] | ['Age' 'Gender' 'Itching' 'Genital thrush' 'Alopecia' 'sudden weight loss'
+ 'class' 'Polyuria'] | ['Age' 'Gender' 'Itching' 'Genital thrush' 'Alopecia' 'sudden weight loss'
+ 'class' 'visual blurring'] |
+Iteration: 161/200 | Itching | Itching | visual blurring | ['Age' 'Gender' 'Polydipsia' 'delayed healing' 'Obesity' 'Polyuria'
+ 'class' 'Itching'] | ['Age' 'Gender' 'Polydipsia' 'delayed healing' 'Obesity' 'Polyuria'
+ 'class' 'Itching'] | ['Age' 'Gender' 'Polydipsia' 'delayed healing' 'Obesity' 'Polyuria'
+ 'class' 'visual blurring'] |
+Iteration: 181/200 | Itching | Itching | Irritability | ['Age' 'Gender' 'Polyuria' 'Polydipsia' 'Genital thrush' 'weakness'
+ 'class' 'Itching'] | ['Age' 'Gender' 'Polyuria' 'Polydipsia' 'Genital thrush' 'weakness'
+ 'class' 'Itching'] | ['Age' 'Gender' 'Polyuria' 'Polydipsia' 'Genital thrush' 'weakness'
+ 'class' 'Irritability'] |
+Calculating F1 Score
+Global Recommendation: 0.9
+Icare Recommendation: 0.92
+E-guided Recommendation: 0.825
+=====================================
+
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 9 features
+=====================================
+Iteration: 1/200 | Polydipsia | Polydipsia | weakness | ['Age' 'Gender' 'Alopecia' 'Irritability' 'Itching' 'Polyphagia'
+ 'partial paresis' 'sudden weight loss' 'Polyuria' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Alopecia' 'Irritability' 'Itching' 'Polyphagia'
+ 'partial paresis' 'sudden weight loss' 'Polyuria' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Alopecia' 'Irritability' 'Itching' 'Polyphagia'
+ 'partial paresis' 'sudden weight loss' 'Polyuria' 'class' 'weakness'] |
+Iteration: 21/200 | Itching | Itching | Polyphagia | ['Age' 'Gender' 'Alopecia' 'delayed healing' 'Genital thrush' 'Polyuria'
+ 'visual blurring' 'Polydipsia' 'weakness' 'class' 'Itching'] | ['Age' 'Gender' 'Alopecia' 'delayed healing' 'Genital thrush' 'Polyuria'
+ 'visual blurring' 'Polydipsia' 'weakness' 'class' 'Itching'] | ['Age' 'Gender' 'Alopecia' 'delayed healing' 'Genital thrush' 'Polyuria'
+ 'visual blurring' 'Polydipsia' 'weakness' 'class' 'Polyphagia'] |
+Iteration: 41/200 | Polyuria | Polyuria | Polyuria | ['Age' 'Gender' 'Polyphagia' 'Irritability' 'sudden weight loss'
+ 'Genital thrush' 'Polydipsia' 'muscle stiffness' 'weakness' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Polyphagia' 'Irritability' 'sudden weight loss'
+ 'Genital thrush' 'Polydipsia' 'muscle stiffness' 'weakness' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'Polyphagia' 'Irritability' 'sudden weight loss'
+ 'Genital thrush' 'Polydipsia' 'muscle stiffness' 'weakness' 'class'
+ 'Polyuria'] |
+Iteration: 61/200 | Polydipsia | Polydipsia | Polydipsia | ['Age' 'Gender' 'sudden weight loss' 'Itching' 'muscle stiffness'
+ 'visual blurring' 'weakness' 'Obesity' 'Irritability' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'sudden weight loss' 'Itching' 'muscle stiffness'
+ 'visual blurring' 'weakness' 'Obesity' 'Irritability' 'class'
+ 'Polydipsia'] | ['Age' 'Gender' 'sudden weight loss' 'Itching' 'muscle stiffness'
+ 'visual blurring' 'weakness' 'Obesity' 'Irritability' 'class'
+ 'Polydipsia'] |
+Iteration: 81/200 | Polyuria | Polyuria | Polyuria | ['Age' 'Gender' 'visual blurring' 'Polydipsia' 'Obesity' 'Irritability'
+ 'Itching' 'Genital thrush' 'sudden weight loss' 'class' 'Polyuria'] | ['Age' 'Gender' 'visual blurring' 'Polydipsia' 'Obesity' 'Irritability'
+ 'Itching' 'Genital thrush' 'sudden weight loss' 'class' 'Polyuria'] | ['Age' 'Gender' 'visual blurring' 'Polydipsia' 'Obesity' 'Irritability'
+ 'Itching' 'Genital thrush' 'sudden weight loss' 'class' 'Polyuria'] |
+Iteration: 101/200 | Polyuria | Polyuria | Polyuria | ['Age' 'Gender' 'delayed healing' 'Obesity' 'muscle stiffness' 'Alopecia'
+ 'Polydipsia' 'visual blurring' 'Itching' 'class' 'Polyuria'] | ['Age' 'Gender' 'delayed healing' 'Obesity' 'muscle stiffness' 'Alopecia'
+ 'Polydipsia' 'visual blurring' 'Itching' 'class' 'Polyuria'] | ['Age' 'Gender' 'delayed healing' 'Obesity' 'muscle stiffness' 'Alopecia'
+ 'Polydipsia' 'visual blurring' 'Itching' 'class' 'Polyuria'] |
+Iteration: 121/200 | Polyuria | Polyuria | weakness | ['Age' 'Gender' 'visual blurring' 'muscle stiffness' 'Itching'
+ 'Polyphagia' 'Irritability' 'Polydipsia' 'sudden weight loss' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'visual blurring' 'muscle stiffness' 'Itching'
+ 'Polyphagia' 'Irritability' 'Polydipsia' 'sudden weight loss' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'visual blurring' 'muscle stiffness' 'Itching'
+ 'Polyphagia' 'Irritability' 'Polydipsia' 'sudden weight loss' 'class'
+ 'weakness'] |
+Iteration: 141/200 | Itching | muscle stiffness | Polyphagia | ['Age' 'Gender' 'partial paresis' 'visual blurring' 'Obesity'
+ 'sudden weight loss' 'Polyuria' 'Polydipsia' 'Alopecia' 'class' 'Itching'] | ['Age' 'Gender' 'partial paresis' 'visual blurring' 'Obesity'
+ 'sudden weight loss' 'Polyuria' 'Polydipsia' 'Alopecia' 'class'
+ 'muscle stiffness'] | ['Age' 'Gender' 'partial paresis' 'visual blurring' 'Obesity'
+ 'sudden weight loss' 'Polyuria' 'Polydipsia' 'Alopecia' 'class'
+ 'Polyphagia'] |
+Iteration: 161/200 | Polyuria | Polyuria | Polyphagia | ['Age' 'Gender' 'sudden weight loss' 'Genital thrush' 'Alopecia'
+ 'Polydipsia' 'delayed healing' 'weakness' 'visual blurring' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'sudden weight loss' 'Genital thrush' 'Alopecia'
+ 'Polydipsia' 'delayed healing' 'weakness' 'visual blurring' 'class'
+ 'Polyuria'] | ['Age' 'Gender' 'sudden weight loss' 'Genital thrush' 'Alopecia'
+ 'Polydipsia' 'delayed healing' 'weakness' 'visual blurring' 'class'
+ 'Polyphagia'] |
+Iteration: 181/200 | Polyuria | Polyuria | Polyphagia | ['Age' 'Gender' 'Obesity' 'sudden weight loss' 'Itching' 'Polydipsia'
+ 'visual blurring' 'weakness' 'muscle stiffness' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'sudden weight loss' 'Itching' 'Polydipsia'
+ 'visual blurring' 'weakness' 'muscle stiffness' 'class' 'Polyuria'] | ['Age' 'Gender' 'Obesity' 'sudden weight loss' 'Itching' 'Polydipsia'
+ 'visual blurring' 'weakness' 'muscle stiffness' 'class' 'Polyphagia'] |
+Calculating F1 Score
+Global Recommendation: 0.935
+Icare Recommendation: 0.955
+E-guided Recommendation: 0.935
+=====================================
+
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 12 features
+=====================================
+Iteration: 1/200 | Itching | Itching | weakness | ['Age' 'Gender' 'delayed healing' 'Polyuria' 'Polyphagia' 'Obesity'
+ 'Polydipsia' 'visual blurring' 'Genital thrush' 'Irritability'
+ 'partial paresis' 'sudden weight loss' 'class' 'Itching'] | ['Age' 'Gender' 'delayed healing' 'Polyuria' 'Polyphagia' 'Obesity'
+ 'Polydipsia' 'visual blurring' 'Genital thrush' 'Irritability'
+ 'partial paresis' 'sudden weight loss' 'class' 'Itching'] | ['Age' 'Gender' 'delayed healing' 'Polyuria' 'Polyphagia' 'Obesity'
+ 'Polydipsia' 'visual blurring' 'Genital thrush' 'Irritability'
+ 'partial paresis' 'sudden weight loss' 'class' 'weakness'] |
+Iteration: 21/200 | Irritability | Irritability | weakness | ['Age' 'Gender' 'sudden weight loss' 'Alopecia' 'delayed healing'
+ 'Polyuria' 'Genital thrush' 'Polydipsia' 'partial paresis' 'Polyphagia'
+ 'visual blurring' 'Itching' 'class' 'Irritability'] | ['Age' 'Gender' 'sudden weight loss' 'Alopecia' 'delayed healing'
+ 'Polyuria' 'Genital thrush' 'Polydipsia' 'partial paresis' 'Polyphagia'
+ 'visual blurring' 'Itching' 'class' 'Irritability'] | ['Age' 'Gender' 'sudden weight loss' 'Alopecia' 'delayed healing'
+ 'Polyuria' 'Genital thrush' 'Polydipsia' 'partial paresis' 'Polyphagia'
+ 'visual blurring' 'Itching' 'class' 'weakness'] |
+Iteration: 41/200 | Polydipsia | Polydipsia | Polydipsia | ['Age' 'Gender' 'partial paresis' 'Irritability' 'Polyuria' 'Polyphagia'
+ 'Alopecia' 'delayed healing' 'visual blurring' 'Genital thrush'
+ 'weakness' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'partial paresis' 'Irritability' 'Polyuria' 'Polyphagia'
+ 'Alopecia' 'delayed healing' 'visual blurring' 'Genital thrush'
+ 'weakness' 'Obesity' 'class' 'Polydipsia'] | ['Age' 'Gender' 'partial paresis' 'Irritability' 'Polyuria' 'Polyphagia'
+ 'Alopecia' 'delayed healing' 'visual blurring' 'Genital thrush'
+ 'weakness' 'Obesity' 'class' 'Polydipsia'] |
+Iteration: 61/200 | Itching | weakness | weakness | ['Age' 'Gender' 'Obesity' 'Polyuria' 'Genital thrush' 'visual blurring'
+ 'sudden weight loss' 'Polydipsia' 'partial paresis' 'Alopecia'
+ 'delayed healing' 'Polyphagia' 'class' 'Itching'] | ['Age' 'Gender' 'Obesity' 'Polyuria' 'Genital thrush' 'visual blurring'
+ 'sudden weight loss' 'Polydipsia' 'partial paresis' 'Alopecia'
+ 'delayed healing' 'Polyphagia' 'class' 'weakness'] | ['Age' 'Gender' 'Obesity' 'Polyuria' 'Genital thrush' 'visual blurring'
+ 'sudden weight loss' 'Polydipsia' 'partial paresis' 'Alopecia'
+ 'delayed healing' 'Polyphagia' 'class' 'weakness'] |
+Iteration: 81/200 | Itching | Itching | weakness | ['Age' 'Gender' 'muscle stiffness' 'sudden weight loss' 'Obesity'
+ 'Polyuria' 'Polydipsia' 'Polyphagia' 'partial paresis' 'delayed healing'
+ 'visual blurring' 'Genital thrush' 'class' 'Itching'] | ['Age' 'Gender' 'muscle stiffness' 'sudden weight loss' 'Obesity'
+ 'Polyuria' 'Polydipsia' 'Polyphagia' 'partial paresis' 'delayed healing'
+ 'visual blurring' 'Genital thrush' 'class' 'Itching'] | ['Age' 'Gender' 'muscle stiffness' 'sudden weight loss' 'Obesity'
+ 'Polyuria' 'Polydipsia' 'Polyphagia' 'partial paresis' 'delayed healing'
+ 'visual blurring' 'Genital thrush' 'class' 'weakness'] |
+Iteration: 101/200 | Polydipsia | Polyuria | Polyuria | ['Age' 'Gender' 'Polyphagia' 'Itching' 'visual blurring' 'Irritability'
+ 'delayed healing' 'muscle stiffness' 'Alopecia' 'Obesity' 'weakness'
+ 'partial paresis' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Polyphagia' 'Itching' 'visual blurring' 'Irritability'
+ 'delayed healing' 'muscle stiffness' 'Alopecia' 'Obesity' 'weakness'
+ 'partial paresis' 'class' 'Polyuria'] | ['Age' 'Gender' 'Polyphagia' 'Itching' 'visual blurring' 'Irritability'
+ 'delayed healing' 'muscle stiffness' 'Alopecia' 'Obesity' 'weakness'
+ 'partial paresis' 'class' 'Polyuria'] |
+Iteration: 121/200 | Polydipsia | Polydipsia | Polydipsia | ['Age' 'Gender' 'delayed healing' 'weakness' 'partial paresis'
+ 'Polyphagia' 'visual blurring' 'Obesity' 'Irritability' 'Alopecia'
+ 'Polyuria' 'muscle stiffness' 'class' 'Polydipsia'] | ['Age' 'Gender' 'delayed healing' 'weakness' 'partial paresis'
+ 'Polyphagia' 'visual blurring' 'Obesity' 'Irritability' 'Alopecia'
+ 'Polyuria' 'muscle stiffness' 'class' 'Polydipsia'] | ['Age' 'Gender' 'delayed healing' 'weakness' 'partial paresis'
+ 'Polyphagia' 'visual blurring' 'Obesity' 'Irritability' 'Alopecia'
+ 'Polyuria' 'muscle stiffness' 'class' 'Polydipsia'] |
+Iteration: 141/200 | Polydipsia | Polydipsia | Polydipsia | ['Age' 'Gender' 'Alopecia' 'sudden weight loss' 'partial paresis'
+ 'Genital thrush' 'Irritability' 'weakness' 'Obesity' 'Itching' 'Polyuria'
+ 'delayed healing' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Alopecia' 'sudden weight loss' 'partial paresis'
+ 'Genital thrush' 'Irritability' 'weakness' 'Obesity' 'Itching' 'Polyuria'
+ 'delayed healing' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Alopecia' 'sudden weight loss' 'partial paresis'
+ 'Genital thrush' 'Irritability' 'weakness' 'Obesity' 'Itching' 'Polyuria'
+ 'delayed healing' 'class' 'Polydipsia'] |
+Iteration: 161/200 | delayed healing | delayed healing | delayed healing | ['Age' 'Gender' 'visual blurring' 'Polyphagia' 'Polyuria' 'Irritability'
+ 'sudden weight loss' 'Polydipsia' 'Genital thrush' 'weakness'
+ 'partial paresis' 'Itching' 'class' 'delayed healing'] | ['Age' 'Gender' 'visual blurring' 'Polyphagia' 'Polyuria' 'Irritability'
+ 'sudden weight loss' 'Polydipsia' 'Genital thrush' 'weakness'
+ 'partial paresis' 'Itching' 'class' 'delayed healing'] | ['Age' 'Gender' 'visual blurring' 'Polyphagia' 'Polyuria' 'Irritability'
+ 'sudden weight loss' 'Polydipsia' 'Genital thrush' 'weakness'
+ 'partial paresis' 'Itching' 'class' 'delayed healing'] |
+Iteration: 181/200 | Itching | Itching | Polyphagia | ['Age' 'Gender' 'weakness' 'visual blurring' 'Alopecia' 'delayed healing'
+ 'Obesity' 'Polyuria' 'Irritability' 'muscle stiffness'
+ 'sudden weight loss' 'Polydipsia' 'class' 'Itching'] | ['Age' 'Gender' 'weakness' 'visual blurring' 'Alopecia' 'delayed healing'
+ 'Obesity' 'Polyuria' 'Irritability' 'muscle stiffness'
+ 'sudden weight loss' 'Polydipsia' 'class' 'Itching'] | ['Age' 'Gender' 'weakness' 'visual blurring' 'Alopecia' 'delayed healing'
+ 'Obesity' 'Polyuria' 'Irritability' 'muscle stiffness'
+ 'sudden weight loss' 'Polydipsia' 'class' 'Polyphagia'] |
+Calculating F1 Score
+Global Recommendation: 0.9500000000000001
+Icare Recommendation: 0.9500000000000001
+E-guided Recommendation: 0.94
+=====================================
+
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 14 features
+=====================================
+Iteration: 1/200 | partial paresis | partial paresis | partial paresis | ['Age' 'Gender' 'Obesity' 'Itching' 'delayed healing' 'muscle stiffness'
+ 'Irritability' 'Polyuria' 'Genital thrush' 'visual blurring' 'weakness'
+ 'sudden weight loss' 'Polyphagia' 'Polydipsia' 'class' 'partial paresis'] | ['Age' 'Gender' 'Obesity' 'Itching' 'delayed healing' 'muscle stiffness'
+ 'Irritability' 'Polyuria' 'Genital thrush' 'visual blurring' 'weakness'
+ 'sudden weight loss' 'Polyphagia' 'Polydipsia' 'class' 'partial paresis'] | ['Age' 'Gender' 'Obesity' 'Itching' 'delayed healing' 'muscle stiffness'
+ 'Irritability' 'Polyuria' 'Genital thrush' 'visual blurring' 'weakness'
+ 'sudden weight loss' 'Polyphagia' 'Polydipsia' 'class' 'partial paresis'] |
+Iteration: 21/200 | Polydipsia | Polydipsia | Polydipsia | ['Age' 'Gender' 'Irritability' 'Obesity' 'Itching' 'Genital thrush'
+ 'visual blurring' 'weakness' 'Polyuria' 'Alopecia' 'sudden weight loss'
+ 'muscle stiffness' 'Polyphagia' 'delayed healing' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Irritability' 'Obesity' 'Itching' 'Genital thrush'
+ 'visual blurring' 'weakness' 'Polyuria' 'Alopecia' 'sudden weight loss'
+ 'muscle stiffness' 'Polyphagia' 'delayed healing' 'class' 'Polydipsia'] | ['Age' 'Gender' 'Irritability' 'Obesity' 'Itching' 'Genital thrush'
+ 'visual blurring' 'weakness' 'Polyuria' 'Alopecia' 'sudden weight loss'
+ 'muscle stiffness' 'Polyphagia' 'delayed healing' 'class' 'Polydipsia'] |
+Iteration: 41/200 | Itching | Itching | Itching | ['Age' 'Gender' 'sudden weight loss' 'weakness' 'Genital thrush'
+ 'visual blurring' 'muscle stiffness' 'Polyphagia' 'Obesity'
+ 'delayed healing' 'partial paresis' 'Polyuria' 'Polydipsia' 'Alopecia'
+ 'class' 'Itching'] | ['Age' 'Gender' 'sudden weight loss' 'weakness' 'Genital thrush'
+ 'visual blurring' 'muscle stiffness' 'Polyphagia' 'Obesity'
+ 'delayed healing' 'partial paresis' 'Polyuria' 'Polydipsia' 'Alopecia'
+ 'class' 'Itching'] | ['Age' 'Gender' 'sudden weight loss' 'weakness' 'Genital thrush'
+ 'visual blurring' 'muscle stiffness' 'Polyphagia' 'Obesity'
+ 'delayed healing' 'partial paresis' 'Polyuria' 'Polydipsia' 'Alopecia'
+ 'class' 'Itching'] |
+Iteration: 61/200 | partial paresis | partial paresis | Genital thrush | ['Age' 'Gender' 'Irritability' 'Alopecia' 'Obesity' 'sudden weight loss'
+ 'muscle stiffness' 'weakness' 'Itching' 'delayed healing' 'Polydipsia'
+ 'Polyphagia' 'Polyuria' 'visual blurring' 'class' 'partial paresis'] | ['Age' 'Gender' 'Irritability' 'Alopecia' 'Obesity' 'sudden weight loss'
+ 'muscle stiffness' 'weakness' 'Itching' 'delayed healing' 'Polydipsia'
+ 'Polyphagia' 'Polyuria' 'visual blurring' 'class' 'partial paresis'] | ['Age' 'Gender' 'Irritability' 'Alopecia' 'Obesity' 'sudden weight loss'
+ 'muscle stiffness' 'weakness' 'Itching' 'delayed healing' 'Polydipsia'
+ 'Polyphagia' 'Polyuria' 'visual blurring' 'class' 'Genital thrush'] |
+Iteration: 81/200 | Genital thrush | Genital thrush | Polyphagia | ['Age' 'Gender' 'muscle stiffness' 'Obesity' 'delayed healing' 'Polyuria'
+ 'Alopecia' 'Irritability' 'sudden weight loss' 'weakness'
+ 'visual blurring' 'Itching' 'Polydipsia' 'partial paresis' 'class'
+ 'Genital thrush'] | ['Age' 'Gender' 'muscle stiffness' 'Obesity' 'delayed healing' 'Polyuria'
+ 'Alopecia' 'Irritability' 'sudden weight loss' 'weakness'
+ 'visual blurring' 'Itching' 'Polydipsia' 'partial paresis' 'class'
+ 'Genital thrush'] | ['Age' 'Gender' 'muscle stiffness' 'Obesity' 'delayed healing' 'Polyuria'
+ 'Alopecia' 'Irritability' 'sudden weight loss' 'weakness'
+ 'visual blurring' 'Itching' 'Polydipsia' 'partial paresis' 'class'
+ 'Polyphagia'] |
+Iteration: 101/200 | partial paresis | partial paresis | Polyphagia | ['Age' 'Gender' 'visual blurring' 'Obesity' 'delayed healing' 'Polydipsia'
+ 'muscle stiffness' 'Genital thrush' 'Alopecia' 'Itching' 'Irritability'
+ 'sudden weight loss' 'Polyuria' 'weakness' 'class' 'partial paresis'] | ['Age' 'Gender' 'visual blurring' 'Obesity' 'delayed healing' 'Polydipsia'
+ 'muscle stiffness' 'Genital thrush' 'Alopecia' 'Itching' 'Irritability'
+ 'sudden weight loss' 'Polyuria' 'weakness' 'class' 'partial paresis'] | ['Age' 'Gender' 'visual blurring' 'Obesity' 'delayed healing' 'Polydipsia'
+ 'muscle stiffness' 'Genital thrush' 'Alopecia' 'Itching' 'Irritability'
+ 'sudden weight loss' 'Polyuria' 'weakness' 'class' 'Polyphagia'] |
+Iteration: 121/200 | Irritability | Irritability | Irritability | ['Age' 'Gender' 'Obesity' 'partial paresis' 'Polyphagia'
+ 'muscle stiffness' 'visual blurring' 'sudden weight loss' 'weakness'
+ 'Itching' 'delayed healing' 'Genital thrush' 'Polyuria' 'Polydipsia'
+ 'class' 'Irritability'] | ['Age' 'Gender' 'Obesity' 'partial paresis' 'Polyphagia'
+ 'muscle stiffness' 'visual blurring' 'sudden weight loss' 'weakness'
+ 'Itching' 'delayed healing' 'Genital thrush' 'Polyuria' 'Polydipsia'
+ 'class' 'Irritability'] | ['Age' 'Gender' 'Obesity' 'partial paresis' 'Polyphagia'
+ 'muscle stiffness' 'visual blurring' 'sudden weight loss' 'weakness'
+ 'Itching' 'delayed healing' 'Genital thrush' 'Polyuria' 'Polydipsia'
+ 'class' 'Irritability'] |
+Iteration: 141/200 | delayed healing | visual blurring | delayed healing | ['Age' 'Gender' 'Itching' 'sudden weight loss' 'Alopecia' 'Polyphagia'
+ 'muscle stiffness' 'partial paresis' 'Genital thrush' 'Irritability'
+ 'Polyuria' 'weakness' 'Obesity' 'Polydipsia' 'class' 'delayed healing'] | ['Age' 'Gender' 'Itching' 'sudden weight loss' 'Alopecia' 'Polyphagia'
+ 'muscle stiffness' 'partial paresis' 'Genital thrush' 'Irritability'
+ 'Polyuria' 'weakness' 'Obesity' 'Polydipsia' 'class' 'visual blurring'] | ['Age' 'Gender' 'Itching' 'sudden weight loss' 'Alopecia' 'Polyphagia'
+ 'muscle stiffness' 'partial paresis' 'Genital thrush' 'Irritability'
+ 'Polyuria' 'weakness' 'Obesity' 'Polydipsia' 'class' 'delayed healing'] |
+Iteration: 161/200 | Irritability | partial paresis | Irritability | ['Age' 'Gender' 'visual blurring' 'Genital thrush' 'sudden weight loss'
+ 'delayed healing' 'Polydipsia' 'muscle stiffness' 'weakness' 'Polyphagia'
+ 'Polyuria' 'Itching' 'Obesity' 'Alopecia' 'class' 'Irritability'] | ['Age' 'Gender' 'visual blurring' 'Genital thrush' 'sudden weight loss'
+ 'delayed healing' 'Polydipsia' 'muscle stiffness' 'weakness' 'Polyphagia'
+ 'Polyuria' 'Itching' 'Obesity' 'Alopecia' 'class' 'partial paresis'] | ['Age' 'Gender' 'visual blurring' 'Genital thrush' 'sudden weight loss'
+ 'delayed healing' 'Polydipsia' 'muscle stiffness' 'weakness' 'Polyphagia'
+ 'Polyuria' 'Itching' 'Obesity' 'Alopecia' 'class' 'Irritability'] |
+Iteration: 181/200 | Polyphagia | Polyphagia | Polyphagia | ['Age' 'Gender' 'muscle stiffness' 'visual blurring' 'Polyuria' 'Itching'
+ 'Genital thrush' 'partial paresis' 'weakness' 'Alopecia' 'Polydipsia'
+ 'Obesity' 'Irritability' 'sudden weight loss' 'class' 'Polyphagia'] | ['Age' 'Gender' 'muscle stiffness' 'visual blurring' 'Polyuria' 'Itching'
+ 'Genital thrush' 'partial paresis' 'weakness' 'Alopecia' 'Polydipsia'
+ 'Obesity' 'Irritability' 'sudden weight loss' 'class' 'Polyphagia'] | ['Age' 'Gender' 'muscle stiffness' 'visual blurring' 'Polyuria' 'Itching'
+ 'Genital thrush' 'partial paresis' 'weakness' 'Alopecia' 'Polydipsia'
+ 'Obesity' 'Irritability' 'sudden weight loss' 'class' 'Polyphagia'] |
+Calculating F1 Score
+Global Recommendation: 0.925
+Icare Recommendation: 0.93
+E-guided Recommendation: 0.93
+=====================================
+
+Running analysis on ExperimentData/early_diabetes_normalized.csv with 15 features
+=====================================
+Iteration: 1/200 | Obesity | Obesity | Obesity | ['Age' 'Gender' 'Polydipsia' 'Genital thrush' 'muscle stiffness'
+ 'delayed healing' 'partial paresis' 'weakness' 'Alopecia' 'Itching'
+ 'sudden weight loss' 'Polyphagia' 'visual blurring' 'Irritability'
+ 'Polyuria' 'class' 'Obesity'] | ['Age' 'Gender' 'Polydipsia' 'Genital thrush' 'muscle stiffness'
+ 'delayed healing' 'partial paresis' 'weakness' 'Alopecia' 'Itching'
+ 'sudden weight loss' 'Polyphagia' 'visual blurring' 'Irritability'
+ 'Polyuria' 'class' 'Obesity'] | ['Age' 'Gender' 'Polydipsia' 'Genital thrush' 'muscle stiffness'
+ 'delayed healing' 'partial paresis' 'weakness' 'Alopecia' 'Itching'
+ 'sudden weight loss' 'Polyphagia' 'visual blurring' 'Irritability'
+ 'Polyuria' 'class' 'Obesity'] |
+Iteration: 21/200 | partial paresis | partial paresis | partial paresis | ['Age' 'Gender' 'Irritability' 'Polyphagia' 'visual blurring'
+ 'delayed healing' 'Polydipsia' 'Alopecia' 'sudden weight loss' 'Itching'
+ 'Genital thrush' 'Obesity' 'muscle stiffness' 'Polyuria' 'weakness'
+ 'class' 'partial paresis'] | ['Age' 'Gender' 'Irritability' 'Polyphagia' 'visual blurring'
+ 'delayed healing' 'Polydipsia' 'Alopecia' 'sudden weight loss' 'Itching'
+ 'Genital thrush' 'Obesity' 'muscle stiffness' 'Polyuria' 'weakness'
+ 'class' 'partial paresis'] | ['Age' 'Gender' 'Irritability' 'Polyphagia' 'visual blurring'
+ 'delayed healing' 'Polydipsia' 'Alopecia' 'sudden weight loss' 'Itching'
+ 'Genital thrush' 'Obesity' 'muscle stiffness' 'Polyuria' 'weakness'
+ 'class' 'partial paresis'] |
+Iteration: 41/200 | Alopecia | Alopecia | Alopecia | ['Age' 'Gender' 'visual blurring' 'Itching' 'Polyphagia' 'Polydipsia'
+ 'Genital thrush' 'Irritability' 'partial paresis' 'weakness' 'Polyuria'
+ 'muscle stiffness' 'Obesity' 'delayed healing' 'sudden weight loss'
+ 'class' 'Alopecia'] | ['Age' 'Gender' 'visual blurring' 'Itching' 'Polyphagia' 'Polydipsia'
+ 'Genital thrush' 'Irritability' 'partial paresis' 'weakness' 'Polyuria'
+ 'muscle stiffness' 'Obesity' 'delayed healing' 'sudden weight loss'
+ 'class' 'Alopecia'] | ['Age' 'Gender' 'visual blurring' 'Itching' 'Polyphagia' 'Polydipsia'
+ 'Genital thrush' 'Irritability' 'partial paresis' 'weakness' 'Polyuria'
+ 'muscle stiffness' 'Obesity' 'delayed healing' 'sudden weight loss'
+ 'class' 'Alopecia'] |
+Iteration: 61/200 | Polyphagia | Polyphagia | Polyphagia | ['Age' 'Gender' 'delayed healing' 'sudden weight loss' 'partial paresis'
+ 'Genital thrush' 'Obesity' 'Irritability' 'Polyuria' 'Alopecia' 'Itching'
+ 'Polydipsia' 'visual blurring' 'weakness' 'muscle stiffness' 'class'
+ 'Polyphagia'] | ['Age' 'Gender' 'delayed healing' 'sudden weight loss' 'partial paresis'
+ 'Genital thrush' 'Obesity' 'Irritability' 'Polyuria' 'Alopecia' 'Itching'
+ 'Polydipsia' 'visual blurring' 'weakness' 'muscle stiffness' 'class'
+ 'Polyphagia'] | ['Age' 'Gender' 'delayed healing' 'sudden weight loss' 'partial paresis'
+ 'Genital thrush' 'Obesity' 'Irritability' 'Polyuria' 'Alopecia' 'Itching'
+ 'Polydipsia' 'visual blurring' 'weakness' 'muscle stiffness' 'class'
+ 'Polyphagia'] |
+Iteration: 81/200 | weakness | weakness | weakness | ['Age' 'Gender' 'sudden weight loss' 'Polyuria' 'Polyphagia' 'Itching'
+ 'visual blurring' 'Alopecia' 'Polydipsia' 'Obesity' 'partial paresis'
+ 'Irritability' 'delayed healing' 'Genital thrush' 'muscle stiffness'
+ 'class' 'weakness'] | ['Age' 'Gender' 'sudden weight loss' 'Polyuria' 'Polyphagia' 'Itching'
+ 'visual blurring' 'Alopecia' 'Polydipsia' 'Obesity' 'partial paresis'
+ 'Irritability' 'delayed healing' 'Genital thrush' 'muscle stiffness'
+ 'class' 'weakness'] | ['Age' 'Gender' 'sudden weight loss' 'Polyuria' 'Polyphagia' 'Itching'
+ 'visual blurring' 'Alopecia' 'Polydipsia' 'Obesity' 'partial paresis'
+ 'Irritability' 'delayed healing' 'Genital thrush' 'muscle stiffness'
+ 'class' 'weakness'] |
+Iteration: 101/200 | Itching | Itching | Itching | ['Age' 'Gender' 'visual blurring' 'delayed healing' 'Polydipsia'
+ 'Polyphagia' 'Irritability' 'weakness' 'Alopecia' 'Polyuria'
+ 'partial paresis' 'Genital thrush' 'muscle stiffness'
+ 'sudden weight loss' 'Obesity' 'class' 'Itching'] | ['Age' 'Gender' 'visual blurring' 'delayed healing' 'Polydipsia'
+ 'Polyphagia' 'Irritability' 'weakness' 'Alopecia' 'Polyuria'
+ 'partial paresis' 'Genital thrush' 'muscle stiffness'
+ 'sudden weight loss' 'Obesity' 'class' 'Itching'] | ['Age' 'Gender' 'visual blurring' 'delayed healing' 'Polydipsia'
+ 'Polyphagia' 'Irritability' 'weakness' 'Alopecia' 'Polyuria'
+ 'partial paresis' 'Genital thrush' 'muscle stiffness'
+ 'sudden weight loss' 'Obesity' 'class' 'Itching'] |
+Iteration: 121/200 | partial paresis | partial paresis | partial paresis | ['Age' 'Gender' 'Genital thrush' 'Alopecia' 'delayed healing'
+ 'visual blurring' 'Polyphagia' 'Itching' 'Obesity' 'Polyuria'
+ 'Polydipsia' 'sudden weight loss' 'Irritability' 'weakness'
+ 'muscle stiffness' 'class' 'partial paresis'] | ['Age' 'Gender' 'Genital thrush' 'Alopecia' 'delayed healing'
+ 'visual blurring' 'Polyphagia' 'Itching' 'Obesity' 'Polyuria'
+ 'Polydipsia' 'sudden weight loss' 'Irritability' 'weakness'
+ 'muscle stiffness' 'class' 'partial paresis'] | ['Age' 'Gender' 'Genital thrush' 'Alopecia' 'delayed healing'
+ 'visual blurring' 'Polyphagia' 'Itching' 'Obesity' 'Polyuria'
+ 'Polydipsia' 'sudden weight loss' 'Irritability' 'weakness'
+ 'muscle stiffness' 'class' 'partial paresis'] |
+Iteration: 141/200 | Alopecia | Alopecia | Alopecia | ['Age' 'Gender' 'Irritability' 'delayed healing' 'Obesity'
+ 'Genital thrush' 'Polydipsia' 'visual blurring' 'weakness' 'Polyphagia'
+ 'Itching' 'sudden weight loss' 'muscle stiffness' 'partial paresis'
+ 'Polyuria' 'class' 'Alopecia'] | ['Age' 'Gender' 'Irritability' 'delayed healing' 'Obesity'
+ 'Genital thrush' 'Polydipsia' 'visual blurring' 'weakness' 'Polyphagia'
+ 'Itching' 'sudden weight loss' 'muscle stiffness' 'partial paresis'
+ 'Polyuria' 'class' 'Alopecia'] | ['Age' 'Gender' 'Irritability' 'delayed healing' 'Obesity'
+ 'Genital thrush' 'Polydipsia' 'visual blurring' 'weakness' 'Polyphagia'
+ 'Itching' 'sudden weight loss' 'muscle stiffness' 'partial paresis'
+ 'Polyuria' 'class' 'Alopecia'] |
+Iteration: 161/200 | weakness | weakness | weakness | ['Age' 'Gender' 'delayed healing' 'Obesity' 'Polyphagia'
+ 'muscle stiffness' 'visual blurring' 'Irritability' 'Polyuria'
+ 'sudden weight loss' 'Polydipsia' 'Genital thrush' 'Alopecia' 'Itching'
+ 'partial paresis' 'class' 'weakness'] | ['Age' 'Gender' 'delayed healing' 'Obesity' 'Polyphagia'
+ 'muscle stiffness' 'visual blurring' 'Irritability' 'Polyuria'
+ 'sudden weight loss' 'Polydipsia' 'Genital thrush' 'Alopecia' 'Itching'
+ 'partial paresis' 'class' 'weakness'] | ['Age' 'Gender' 'delayed healing' 'Obesity' 'Polyphagia'
+ 'muscle stiffness' 'visual blurring' 'Irritability' 'Polyuria'
+ 'sudden weight loss' 'Polydipsia' 'Genital thrush' 'Alopecia' 'Itching'
+ 'partial paresis' 'class' 'weakness'] |
+Iteration: 181/200 | Polyuria | Polyuria | Polyuria | ['Age' 'Gender' 'Alopecia' 'Obesity' 'delayed healing' 'Itching'
+ 'weakness' 'partial paresis' 'visual blurring' 'muscle stiffness'
+ 'Irritability' 'Polyphagia' 'Polydipsia' 'Genital thrush'
+ 'sudden weight loss' 'class' 'Polyuria'] | ['Age' 'Gender' 'Alopecia' 'Obesity' 'delayed healing' 'Itching'
+ 'weakness' 'partial paresis' 'visual blurring' 'muscle stiffness'
+ 'Irritability' 'Polyphagia' 'Polydipsia' 'Genital thrush'
+ 'sudden weight loss' 'class' 'Polyuria'] | ['Age' 'Gender' 'Alopecia' 'Obesity' 'delayed healing' 'Itching'
+ 'weakness' 'partial paresis' 'visual blurring' 'muscle stiffness'
+ 'Irritability' 'Polyphagia' 'Polydipsia' 'Genital thrush'
+ 'sudden weight loss' 'class' 'Polyuria'] |
+Calculating F1 Score
+Global Recommendation: 0.97
+Icare Recommendation: 0.97
+E-guided Recommendation: 0.97
+=====================================
+
+Running analysis on ExperimentData/Heart Disease Dataset - Preprocessed.csv with 2 features
+=====================================
+Iteration: 1/200 | cp | exang | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'exang'] | ['age' 'sex' 'target' 'cp'] | 
+Iteration: 21/200 | cp | ca | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'ca'] | ['age' 'sex' 'target' 'cp'] | 
+Iteration: 41/200 | cp | cp | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | 
+Iteration: 61/200 | cp | cp | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | 
+Iteration: 81/200 | cp | exang | ca | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'exang'] | ['age' 'sex' 'target' 'ca'] | 
+Iteration: 101/200 | cp | ca | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'ca'] | ['age' 'sex' 'target' 'cp'] | 
+Iteration: 121/200 | cp | slope | ca | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'slope'] | ['age' 'sex' 'target' 'ca'] | 
+Iteration: 141/200 | cp | cp | ca | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'ca'] | 
+Iteration: 161/200 | cp | thal | ca | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'thal'] | ['age' 'sex' 'target' 'ca'] | 
+Iteration: 181/200 | cp | thal | ca | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'thal'] | ['age' 'sex' 'target' 'ca'] | 
+Calculating F1 Score
+Global Recommendation: 0.745
+Icare Recommendation: 0.855
+E-guided Recommendation: 0.745
+=====================================
+
+Running analysis on ExperimentData/Heart Disease Dataset - Preprocessed.csv with 4 features
+=====================================
+Iteration: 1/200 | thal | oldpeak | restecg | ['age' 'sex' 'cp' 'ca' 'target' 'thal'] | ['age' 'sex' 'cp' 'ca' 'target' 'oldpeak'] | ['age' 'sex' 'cp' 'ca' 'target' 'restecg'] |
+Iteration: 21/200 | ca | thalach | ca | ['age' 'sex' 'cp' 'restecg' 'target' 'ca'] | ['age' 'sex' 'cp' 'restecg' 'target' 'thalach'] | ['age' 'sex' 'cp' 'restecg' 'target' 'ca'] |
+Iteration: 41/200 | cp | cp | cp | ['age' 'sex' 'thalach' 'thal' 'target' 'cp'] | ['age' 'sex' 'thalach' 'thal' 'target' 'cp'] | ['age' 'sex' 'thalach' 'thal' 'target' 'cp'] |
+Iteration: 61/200 | cp | ca | exang | ['age' 'sex' 'thalach' 'oldpeak' 'target' 'cp'] | ['age' 'sex' 'thalach' 'oldpeak' 'target' 'ca'] | ['age' 'sex' 'thalach' 'oldpeak' 'target' 'exang'] |
+Iteration: 81/200 | ca | slope | restecg | ['age' 'sex' 'cp' 'exang' 'target' 'ca'] | ['age' 'sex' 'cp' 'exang' 'target' 'slope'] | ['age' 'sex' 'cp' 'exang' 'target' 'restecg'] |
+Iteration: 101/200 | ca | exang | thal | ['age' 'sex' 'restecg' 'cp' 'target' 'ca'] | ['age' 'sex' 'restecg' 'cp' 'target' 'exang'] | ['age' 'sex' 'restecg' 'cp' 'target' 'thal'] |
+Iteration: 121/200 | cp | cp | cp | ['age' 'sex' 'restecg' 'chol' 'target' 'cp'] | ['age' 'sex' 'restecg' 'chol' 'target' 'cp'] | ['age' 'sex' 'restecg' 'chol' 'target' 'cp'] |
+Iteration: 141/200 | cp | cp | cp | ['age' 'sex' 'slope' 'trestbps' 'target' 'cp'] | ['age' 'sex' 'slope' 'trestbps' 'target' 'cp'] | ['age' 'sex' 'slope' 'trestbps' 'target' 'cp'] |
+Iteration: 161/200 | cp | trestbps | cp | ['age' 'sex' 'slope' 'oldpeak' 'target' 'cp'] | ['age' 'sex' 'slope' 'oldpeak' 'target' 'trestbps'] | ['age' 'sex' 'slope' 'oldpeak' 'target' 'cp'] |
+Iteration: 181/200 | ca | exang | ca | ['age' 'sex' 'restecg' 'cp' 'target' 'ca'] | ['age' 'sex' 'restecg' 'cp' 'target' 'exang'] | ['age' 'sex' 'restecg' 'cp' 'target' 'ca'] |
+Calculating F1 Score
+Global Recommendation: 0.79
+Icare Recommendation: 0.88
+E-guided Recommendation: 0.785
+=====================================
+
+Running analysis on ExperimentData/Heart Disease Dataset - Preprocessed.csv with 6 features
+=====================================
+Iteration: 1/200 | cp | ca | ca | ['age' 'sex' 'exang' 'restecg' 'chol' 'fbs' 'target' 'cp'] | ['age' 'sex' 'exang' 'restecg' 'chol' 'fbs' 'target' 'ca'] | ['age' 'sex' 'exang' 'restecg' 'chol' 'fbs' 'target' 'ca'] |
+Iteration: 21/200 | cp | cp | cp | ['age' 'sex' 'slope' 'restecg' 'ca' 'exang' 'target' 'cp'] | ['age' 'sex' 'slope' 'restecg' 'ca' 'exang' 'target' 'cp'] | ['age' 'sex' 'slope' 'restecg' 'ca' 'exang' 'target' 'cp'] |
+Iteration: 41/200 | cp | ca | ca | ['age' 'sex' 'restecg' 'thal' 'chol' 'oldpeak' 'target' 'cp'] | ['age' 'sex' 'restecg' 'thal' 'chol' 'oldpeak' 'target' 'ca'] | ['age' 'sex' 'restecg' 'thal' 'chol' 'oldpeak' 'target' 'ca'] |
+Iteration: 61/200 | cp | cp | fbs | ['age' 'sex' 'oldpeak' 'thal' 'restecg' 'slope' 'target' 'cp'] | ['age' 'sex' 'oldpeak' 'thal' 'restecg' 'slope' 'target' 'cp'] | ['age' 'sex' 'oldpeak' 'thal' 'restecg' 'slope' 'target' 'fbs'] |
+Iteration: 81/200 | cp | cp | exang | ['age' 'sex' 'thalach' 'restecg' 'oldpeak' 'chol' 'target' 'cp'] | ['age' 'sex' 'thalach' 'restecg' 'oldpeak' 'chol' 'target' 'cp'] | ['age' 'sex' 'thalach' 'restecg' 'oldpeak' 'chol' 'target' 'exang'] |
+Iteration: 101/200 | ca | ca | restecg | ['age' 'sex' 'slope' 'cp' 'thal' 'exang' 'target' 'ca'] | ['age' 'sex' 'slope' 'cp' 'thal' 'exang' 'target' 'ca'] | ['age' 'sex' 'slope' 'cp' 'thal' 'exang' 'target' 'restecg'] |
+Iteration: 121/200 | cp | cp | restecg | ['age' 'sex' 'fbs' 'thalach' 'slope' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'thalach' 'slope' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'thalach' 'slope' 'ca' 'target' 'restecg'] |
+Iteration: 141/200 | cp | restecg | restecg | ['age' 'sex' 'slope' 'thalach' 'chol' 'thal' 'target' 'cp'] | ['age' 'sex' 'slope' 'thalach' 'chol' 'thal' 'target' 'restecg'] | ['age' 'sex' 'slope' 'thalach' 'chol' 'thal' 'target' 'restecg'] |
+Iteration: 161/200 | cp | cp | ca | ['age' 'sex' 'restecg' 'thal' 'oldpeak' 'trestbps' 'target' 'cp'] | ['age' 'sex' 'restecg' 'thal' 'oldpeak' 'trestbps' 'target' 'cp'] | ['age' 'sex' 'restecg' 'thal' 'oldpeak' 'trestbps' 'target' 'ca'] |
+Iteration: 181/200 | cp | cp | fbs | ['age' 'sex' 'ca' 'restecg' 'exang' 'slope' 'target' 'cp'] | ['age' 'sex' 'ca' 'restecg' 'exang' 'slope' 'target' 'cp'] | ['age' 'sex' 'ca' 'restecg' 'exang' 'slope' 'target' 'fbs'] |
+Calculating F1 Score
+Global Recommendation: 0.83
+Icare Recommendation: 0.87
+E-guided Recommendation: 0.845
+=====================================
+
+Running analysis on ExperimentData/Heart Disease Dataset - Preprocessed.csv with 8 features
+=====================================
+Iteration: 1/200 | ca | ca | fbs | ['age' 'sex' 'restecg' 'exang' 'cp' 'chol' 'thalach' 'thal' 'target' 'ca'] | ['age' 'sex' 'restecg' 'exang' 'cp' 'chol' 'thalach' 'thal' 'target' 'ca'] | ['age' 'sex' 'restecg' 'exang' 'cp' 'chol' 'thalach' 'thal' 'target' 'fbs'] |
+Iteration: 21/200 | cp | cp | cp | ['age' 'sex' 'fbs' 'ca' 'thal' 'chol' 'slope' 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'ca' 'thal' 'chol' 'slope' 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'ca' 'thal' 'chol' 'slope' 'exang' 'target' 'cp'] |
+Iteration: 41/200 | exang | exang | restecg | ['age' 'sex' 'thal' 'chol' 'ca' 'slope' 'cp' 'trestbps' 'target' 'exang'] | ['age' 'sex' 'thal' 'chol' 'ca' 'slope' 'cp' 'trestbps' 'target' 'exang'] | ['age' 'sex' 'thal' 'chol' 'ca' 'slope' 'cp' 'trestbps' 'target' 'restecg'] |
+Iteration: 61/200 | ca | ca | ca | ['age' 'sex' 'cp' 'oldpeak' 'exang' 'thal' 'fbs' 'slope' 'target' 'ca'] | ['age' 'sex' 'cp' 'oldpeak' 'exang' 'thal' 'fbs' 'slope' 'target' 'ca'] | ['age' 'sex' 'cp' 'oldpeak' 'exang' 'thal' 'fbs' 'slope' 'target' 'ca'] |
+Iteration: 81/200 | cp | cp | cp | ['age' 'sex' 'trestbps' 'thal' 'oldpeak' 'fbs' 'ca' 'restecg' 'target'
+ 'cp'] | ['age' 'sex' 'trestbps' 'thal' 'oldpeak' 'fbs' 'ca' 'restecg' 'target'
+ 'cp'] | ['age' 'sex' 'trestbps' 'thal' 'oldpeak' 'fbs' 'ca' 'restecg' 'target'
+ 'cp'] |
+Iteration: 101/200 | exang | exang | fbs | ['age' 'sex' 'ca' 'cp' 'trestbps' 'thal' 'oldpeak' 'restecg' 'target'
+ 'exang'] | ['age' 'sex' 'ca' 'cp' 'trestbps' 'thal' 'oldpeak' 'restecg' 'target'
+ 'exang'] | ['age' 'sex' 'ca' 'cp' 'trestbps' 'thal' 'oldpeak' 'restecg' 'target'
+ 'fbs'] |
+Iteration: 121/200 | cp | cp | cp | ['age' 'sex' 'fbs' 'restecg' 'exang' 'oldpeak' 'ca' 'thalach' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'restecg' 'exang' 'oldpeak' 'ca' 'thalach' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'restecg' 'exang' 'oldpeak' 'ca' 'thalach' 'target'
+ 'cp'] |
+Iteration: 141/200 | cp | cp | cp | ['age' 'sex' 'fbs' 'thal' 'slope' 'chol' 'exang' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'thal' 'slope' 'chol' 'exang' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'thal' 'slope' 'chol' 'exang' 'ca' 'target' 'cp'] |
+Iteration: 161/200 | cp | slope | restecg | ['age' 'sex' 'thal' 'thalach' 'ca' 'trestbps' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'thal' 'thalach' 'ca' 'trestbps' 'fbs' 'chol' 'target'
+ 'slope'] | ['age' 'sex' 'thal' 'thalach' 'ca' 'trestbps' 'fbs' 'chol' 'target'
+ 'restecg'] |
+Iteration: 181/200 | ca | ca | ca | ['age' 'sex' 'thal' 'restecg' 'cp' 'slope' 'chol' 'trestbps' 'target' 'ca'] | ['age' 'sex' 'thal' 'restecg' 'cp' 'slope' 'chol' 'trestbps' 'target' 'ca'] | ['age' 'sex' 'thal' 'restecg' 'cp' 'slope' 'chol' 'trestbps' 'target' 'ca'] |
+Calculating F1 Score
+Global Recommendation: 0.855
+Icare Recommendation: 0.8599999999999999
+E-guided Recommendation: 0.8599999999999999
+=====================================
+
+Running analysis on ExperimentData/Heart Disease Dataset - Preprocessed.csv with 10 features
+=====================================
+Iteration: 1/200 | cp | thal | cp | ['age' 'sex' 'restecg' 'oldpeak' 'thalach' 'ca' 'trestbps' 'slope' 'chol'
+ 'fbs' 'target' 'cp'] | ['age' 'sex' 'restecg' 'oldpeak' 'thalach' 'ca' 'trestbps' 'slope' 'chol'
+ 'fbs' 'target' 'thal'] | ['age' 'sex' 'restecg' 'oldpeak' 'thalach' 'ca' 'trestbps' 'slope' 'chol'
+ 'fbs' 'target' 'cp'] |
+Iteration: 21/200 | cp | cp | cp | ['age' 'sex' 'restecg' 'chol' 'thalach' 'exang' 'slope' 'fbs' 'trestbps'
+ 'thal' 'target' 'cp'] | ['age' 'sex' 'restecg' 'chol' 'thalach' 'exang' 'slope' 'fbs' 'trestbps'
+ 'thal' 'target' 'cp'] | ['age' 'sex' 'restecg' 'chol' 'thalach' 'exang' 'slope' 'fbs' 'trestbps'
+ 'thal' 'target' 'cp'] |
+Iteration: 41/200 | oldpeak | fbs | fbs | ['age' 'sex' 'exang' 'thal' 'trestbps' 'ca' 'slope' 'cp' 'restecg'
+ 'thalach' 'target' 'oldpeak'] | ['age' 'sex' 'exang' 'thal' 'trestbps' 'ca' 'slope' 'cp' 'restecg'
+ 'thalach' 'target' 'fbs'] | ['age' 'sex' 'exang' 'thal' 'trestbps' 'ca' 'slope' 'cp' 'restecg'
+ 'thalach' 'target' 'fbs'] |
+Iteration: 61/200 | thal | thalach | thal | ['age' 'sex' 'restecg' 'cp' 'fbs' 'slope' 'trestbps' 'chol' 'oldpeak' 'ca'
+ 'target' 'thal'] | ['age' 'sex' 'restecg' 'cp' 'fbs' 'slope' 'trestbps' 'chol' 'oldpeak' 'ca'
+ 'target' 'thalach'] | ['age' 'sex' 'restecg' 'cp' 'fbs' 'slope' 'trestbps' 'chol' 'oldpeak' 'ca'
+ 'target' 'thal'] |
+Iteration: 81/200 | cp | cp | cp | ['age' 'sex' 'restecg' 'fbs' 'oldpeak' 'exang' 'ca' 'thalach' 'trestbps'
+ 'chol' 'target' 'cp'] | ['age' 'sex' 'restecg' 'fbs' 'oldpeak' 'exang' 'ca' 'thalach' 'trestbps'
+ 'chol' 'target' 'cp'] | ['age' 'sex' 'restecg' 'fbs' 'oldpeak' 'exang' 'ca' 'thalach' 'trestbps'
+ 'chol' 'target' 'cp'] |
+Iteration: 101/200 | cp | cp | cp | ['age' 'sex' 'oldpeak' 'exang' 'fbs' 'slope' 'thal' 'ca' 'trestbps' 'chol'
+ 'target' 'cp'] | ['age' 'sex' 'oldpeak' 'exang' 'fbs' 'slope' 'thal' 'ca' 'trestbps' 'chol'
+ 'target' 'cp'] | ['age' 'sex' 'oldpeak' 'exang' 'fbs' 'slope' 'thal' 'ca' 'trestbps' 'chol'
+ 'target' 'cp'] |
+Iteration: 121/200 | cp | cp | cp | ['age' 'sex' 'trestbps' 'fbs' 'slope' 'exang' 'ca' 'oldpeak' 'thal'
+ 'restecg' 'target' 'cp'] | ['age' 'sex' 'trestbps' 'fbs' 'slope' 'exang' 'ca' 'oldpeak' 'thal'
+ 'restecg' 'target' 'cp'] | ['age' 'sex' 'trestbps' 'fbs' 'slope' 'exang' 'ca' 'oldpeak' 'thal'
+ 'restecg' 'target' 'cp'] |
+Iteration: 141/200 | oldpeak | thalach | thalach | ['age' 'sex' 'cp' 'chol' 'exang' 'ca' 'restecg' 'fbs' 'thal' 'slope'
+ 'target' 'oldpeak'] | ['age' 'sex' 'cp' 'chol' 'exang' 'ca' 'restecg' 'fbs' 'thal' 'slope'
+ 'target' 'thalach'] | ['age' 'sex' 'cp' 'chol' 'exang' 'ca' 'restecg' 'fbs' 'thal' 'slope'
+ 'target' 'thalach'] |
+Iteration: 161/200 | exang | exang | slope | ['age' 'sex' 'restecg' 'chol' 'thal' 'cp' 'ca' 'trestbps' 'fbs' 'thalach'
+ 'target' 'exang'] | ['age' 'sex' 'restecg' 'chol' 'thal' 'cp' 'ca' 'trestbps' 'fbs' 'thalach'
+ 'target' 'exang'] | ['age' 'sex' 'restecg' 'chol' 'thal' 'cp' 'ca' 'trestbps' 'fbs' 'thalach'
+ 'target' 'slope'] |
+Iteration: 181/200 | ca | ca | ca | ['age' 'sex' 'exang' 'chol' 'slope' 'thalach' 'fbs' 'trestbps' 'thal' 'cp'
+ 'target' 'ca'] | ['age' 'sex' 'exang' 'chol' 'slope' 'thalach' 'fbs' 'trestbps' 'thal' 'cp'
+ 'target' 'ca'] | ['age' 'sex' 'exang' 'chol' 'slope' 'thalach' 'fbs' 'trestbps' 'thal' 'cp'
+ 'target' 'ca'] |
+Calculating F1 Score
+Global Recommendation: 0.8000000000000002
+Icare Recommendation: 0.835
+E-guided Recommendation: 0.81
+=====================================
+
+Running analysis on ExperimentData/Heart Disease Dataset - Preprocessed.csv with 12 features
+=====================================
+Iteration: 1/200 | exang | exang | exang | ['age' 'sex' 'trestbps' 'ca' 'thal' 'restecg' 'cp' 'thalach' 'fbs'
+ 'oldpeak' 'slope' 'chol' 'target' 'exang'] | ['age' 'sex' 'trestbps' 'ca' 'thal' 'restecg' 'cp' 'thalach' 'fbs'
+ 'oldpeak' 'slope' 'chol' 'target' 'exang'] | ['age' 'sex' 'trestbps' 'ca' 'thal' 'restecg' 'cp' 'thalach' 'fbs'
+ 'oldpeak' 'slope' 'chol' 'target' 'exang'] |
+Iteration: 21/200 | oldpeak | oldpeak | oldpeak | ['age' 'sex' 'restecg' 'trestbps' 'fbs' 'exang' 'cp' 'chol' 'slope' 'thal'
+ 'ca' 'thalach' 'target' 'oldpeak'] | ['age' 'sex' 'restecg' 'trestbps' 'fbs' 'exang' 'cp' 'chol' 'slope' 'thal'
+ 'ca' 'thalach' 'target' 'oldpeak'] | ['age' 'sex' 'restecg' 'trestbps' 'fbs' 'exang' 'cp' 'chol' 'slope' 'thal'
+ 'ca' 'thalach' 'target' 'oldpeak'] |
+Iteration: 41/200 | restecg | restecg | restecg | ['age' 'sex' 'thal' 'slope' 'thalach' 'trestbps' 'oldpeak' 'fbs' 'cp' 'ca'
+ 'chol' 'exang' 'target' 'restecg'] | ['age' 'sex' 'thal' 'slope' 'thalach' 'trestbps' 'oldpeak' 'fbs' 'cp' 'ca'
+ 'chol' 'exang' 'target' 'restecg'] | ['age' 'sex' 'thal' 'slope' 'thalach' 'trestbps' 'oldpeak' 'fbs' 'cp' 'ca'
+ 'chol' 'exang' 'target' 'restecg'] |
+Iteration: 61/200 | exang | exang | exang | ['age' 'sex' 'cp' 'slope' 'fbs' 'oldpeak' 'trestbps' 'thalach' 'thal'
+ 'chol' 'restecg' 'ca' 'target' 'exang'] | ['age' 'sex' 'cp' 'slope' 'fbs' 'oldpeak' 'trestbps' 'thalach' 'thal'
+ 'chol' 'restecg' 'ca' 'target' 'exang'] | ['age' 'sex' 'cp' 'slope' 'fbs' 'oldpeak' 'trestbps' 'thalach' 'thal'
+ 'chol' 'restecg' 'ca' 'target' 'exang'] |
+Iteration: 81/200 | trestbps | trestbps | trestbps | ['age' 'sex' 'ca' 'slope' 'thalach' 'cp' 'fbs' 'chol' 'oldpeak' 'exang'
+ 'restecg' 'thal' 'target' 'trestbps'] | ['age' 'sex' 'ca' 'slope' 'thalach' 'cp' 'fbs' 'chol' 'oldpeak' 'exang'
+ 'restecg' 'thal' 'target' 'trestbps'] | ['age' 'sex' 'ca' 'slope' 'thalach' 'cp' 'fbs' 'chol' 'oldpeak' 'exang'
+ 'restecg' 'thal' 'target' 'trestbps'] |
+Iteration: 101/200 | thal | thal | thal | ['age' 'sex' 'oldpeak' 'trestbps' 'restecg' 'exang' 'thalach' 'cp' 'slope'
+ 'chol' 'ca' 'fbs' 'target' 'thal'] | ['age' 'sex' 'oldpeak' 'trestbps' 'restecg' 'exang' 'thalach' 'cp' 'slope'
+ 'chol' 'ca' 'fbs' 'target' 'thal'] | ['age' 'sex' 'oldpeak' 'trestbps' 'restecg' 'exang' 'thalach' 'cp' 'slope'
+ 'chol' 'ca' 'fbs' 'target' 'thal'] |
+Iteration: 121/200 | exang | exang | exang | ['age' 'sex' 'thal' 'chol' 'oldpeak' 'cp' 'slope' 'fbs' 'ca' 'thalach'
+ 'trestbps' 'restecg' 'target' 'exang'] | ['age' 'sex' 'thal' 'chol' 'oldpeak' 'cp' 'slope' 'fbs' 'ca' 'thalach'
+ 'trestbps' 'restecg' 'target' 'exang'] | ['age' 'sex' 'thal' 'chol' 'oldpeak' 'cp' 'slope' 'fbs' 'ca' 'thalach'
+ 'trestbps' 'restecg' 'target' 'exang'] |
+Iteration: 141/200 | oldpeak | oldpeak | oldpeak | ['age' 'sex' 'cp' 'chol' 'fbs' 'ca' 'trestbps' 'restecg' 'slope' 'thalach'
+ 'exang' 'thal' 'target' 'oldpeak'] | ['age' 'sex' 'cp' 'chol' 'fbs' 'ca' 'trestbps' 'restecg' 'slope' 'thalach'
+ 'exang' 'thal' 'target' 'oldpeak'] | ['age' 'sex' 'cp' 'chol' 'fbs' 'ca' 'trestbps' 'restecg' 'slope' 'thalach'
+ 'exang' 'thal' 'target' 'oldpeak'] |
+Iteration: 161/200 | slope | slope | slope | ['age' 'sex' 'thalach' 'chol' 'oldpeak' 'restecg' 'ca' 'fbs' 'trestbps'
+ 'exang' 'cp' 'thal' 'target' 'slope'] | ['age' 'sex' 'thalach' 'chol' 'oldpeak' 'restecg' 'ca' 'fbs' 'trestbps'
+ 'exang' 'cp' 'thal' 'target' 'slope'] | ['age' 'sex' 'thalach' 'chol' 'oldpeak' 'restecg' 'ca' 'fbs' 'trestbps'
+ 'exang' 'cp' 'thal' 'target' 'slope'] |
+Iteration: 181/200 | slope | slope | slope | ['age' 'sex' 'ca' 'thal' 'chol' 'fbs' 'oldpeak' 'restecg' 'cp' 'exang'
+ 'thalach' 'trestbps' 'target' 'slope'] | ['age' 'sex' 'ca' 'thal' 'chol' 'fbs' 'oldpeak' 'restecg' 'cp' 'exang'
+ 'thalach' 'trestbps' 'target' 'slope'] | ['age' 'sex' 'ca' 'thal' 'chol' 'fbs' 'oldpeak' 'restecg' 'cp' 'exang'
+ 'thalach' 'trestbps' 'target' 'slope'] |
+Calculating F1 Score
+Global Recommendation: 0.825
+Icare Recommendation: 0.825
+E-guided Recommendation: 0.825
+=====================================
+
+Running analysis on ExperimentData/Heart Failure Prediction Dataset - Preprocessed.csv with 2 features
+=====================================
+Iteration: 1/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 21/200 | ST_Slope | ChestPainType | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 41/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 61/200 | ST_Slope | ExerciseAngina | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 81/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 101/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 121/200 | ST_Slope | ChestPainType | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 141/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 161/200 | ST_Slope | Oldpeak | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Iteration: 181/200 | ST_Slope | Cholesterol | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'Cholesterol'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
+Calculating F1 Score
+Global Recommendation: 0.825
+Icare Recommendation: 0.78
+E-guided Recommendation: 0.825
+=====================================
+
+Running analysis on ExperimentData/Heart Failure Prediction Dataset - Preprocessed.csv with 4 features
+=====================================
+Iteration: 1/200 | ST_Slope | ExerciseAngina | ChestPainType | ['Age' 'Sex' 'RestingECG' 'Oldpeak' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingECG' 'Oldpeak' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'RestingECG' 'Oldpeak' 'HeartDisease' 'ChestPainType'] |
+Iteration: 21/200 | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'ExerciseAngina' 'Cholesterol' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ExerciseAngina' 'Cholesterol' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ExerciseAngina' 'Cholesterol' 'HeartDisease' 'ChestPainType'] |
+Iteration: 41/200 | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
+Iteration: 61/200 | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'Oldpeak' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'Oldpeak' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'Oldpeak' 'HeartDisease' 'ChestPainType'] |
+Iteration: 81/200 | ST_Slope | FastingBS | ChestPainType | ['Age' 'Sex' 'ExerciseAngina' 'Cholesterol' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ExerciseAngina' 'Cholesterol' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'ExerciseAngina' 'Cholesterol' 'HeartDisease' 'ChestPainType'] |
+Iteration: 101/200 | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'MaxHR' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'MaxHR' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'MaxHR' 'HeartDisease' 'ChestPainType'] |
+Iteration: 121/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'FastingBS' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 141/200 | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'MaxHR' 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'MaxHR' 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'MaxHR' 'FastingBS' 'HeartDisease' 'ChestPainType'] |
+Iteration: 161/200 | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'MaxHR' 'RestingBP' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'MaxHR' 'RestingBP' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'MaxHR' 'RestingBP' 'HeartDisease' 'ChestPainType'] |
+Iteration: 181/200 | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
+Calculating F1 Score
+Global Recommendation: 0.875
+Icare Recommendation: 0.87
+E-guided Recommendation: 0.855
+=====================================
+
+Running analysis on ExperimentData/Heart Failure Prediction Dataset - Preprocessed.csv with 6 features
+=====================================
+Iteration: 1/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'FastingBS' 'RestingECG' 'ChestPainType' 'RestingBP'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'RestingECG' 'ChestPainType' 'RestingBP'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'RestingECG' 'ChestPainType' 'RestingBP'
+ 'HeartDisease' 'ST_Slope'] |
+Iteration: 21/200 | ExerciseAngina | ChestPainType | ExerciseAngina | ['Age' 'Sex' 'RestingECG' 'ST_Slope' 'MaxHR' 'RestingBP' 'HeartDisease'
+ 'ExerciseAngina'] | ['Age' 'Sex' 'RestingECG' 'ST_Slope' 'MaxHR' 'RestingBP' 'HeartDisease'
+ 'ChestPainType'] | ['Age' 'Sex' 'RestingECG' 'ST_Slope' 'MaxHR' 'RestingBP' 'HeartDisease'
+ 'ExerciseAngina'] |
+Iteration: 41/200 | Cholesterol | Cholesterol | RestingECG | ['Age' 'Sex' 'ChestPainType' 'ExerciseAngina' 'FastingBS' 'ST_Slope'
+ 'HeartDisease' 'Cholesterol'] | ['Age' 'Sex' 'ChestPainType' 'ExerciseAngina' 'FastingBS' 'ST_Slope'
+ 'HeartDisease' 'Cholesterol'] | ['Age' 'Sex' 'ChestPainType' 'ExerciseAngina' 'FastingBS' 'ST_Slope'
+ 'HeartDisease' 'RestingECG'] |
+Iteration: 61/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'Oldpeak' 'ChestPainType' 'RestingBP' 'FastingBS'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'Oldpeak' 'ChestPainType' 'RestingBP' 'FastingBS'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'Oldpeak' 'ChestPainType' 'RestingBP' 'FastingBS'
+ 'HeartDisease' 'ST_Slope'] |
+Iteration: 81/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'MaxHR' 'RestingBP' 'ExerciseAngina' 'Cholesterol'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'MaxHR' 'RestingBP' 'ExerciseAngina' 'Cholesterol'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'MaxHR' 'RestingBP' 'ExerciseAngina' 'Cholesterol'
+ 'HeartDisease' 'ST_Slope'] |
+Iteration: 101/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'Oldpeak' 'ExerciseAngina' 'RestingBP' 'FastingBS'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'Oldpeak' 'ExerciseAngina' 'RestingBP' 'FastingBS'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'Oldpeak' 'ExerciseAngina' 'RestingBP' 'FastingBS'
+ 'HeartDisease' 'ST_Slope'] |
+Iteration: 121/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'ChestPainType' 'ExerciseAngina' 'RestingECG' 'Oldpeak'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ChestPainType' 'ExerciseAngina' 'RestingECG' 'Oldpeak'
+ 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'ChestPainType' 'ExerciseAngina' 'RestingECG' 'Oldpeak'
+ 'HeartDisease' 'ST_Slope'] |
+Iteration: 141/200 | ExerciseAngina | ExerciseAngina | ExerciseAngina | ['Age' 'Sex' 'Cholesterol' 'ST_Slope' 'RestingECG' 'ChestPainType'
+ 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'Cholesterol' 'ST_Slope' 'RestingECG' 'ChestPainType'
+ 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'Cholesterol' 'ST_Slope' 'RestingECG' 'ChestPainType'
+ 'HeartDisease' 'ExerciseAngina'] |
+Iteration: 161/200 | ExerciseAngina | ExerciseAngina | RestingECG | ['Age' 'Sex' 'ChestPainType' 'Cholesterol' 'FastingBS' 'ST_Slope'
+ 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'ChestPainType' 'Cholesterol' 'FastingBS' 'ST_Slope'
+ 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'ChestPainType' 'Cholesterol' 'FastingBS' 'ST_Slope'
+ 'HeartDisease' 'RestingECG'] |
+Iteration: 181/200 | ChestPainType | ExerciseAngina | RestingECG | ['Age' 'Sex' 'Cholesterol' 'RestingBP' 'ST_Slope' 'Oldpeak' 'HeartDisease'
+ 'ChestPainType'] | ['Age' 'Sex' 'Cholesterol' 'RestingBP' 'ST_Slope' 'Oldpeak' 'HeartDisease'
+ 'ExerciseAngina'] | ['Age' 'Sex' 'Cholesterol' 'RestingBP' 'ST_Slope' 'Oldpeak' 'HeartDisease'
+ 'RestingECG'] |
+Calculating F1 Score
+Global Recommendation: 0.835
+Icare Recommendation: 0.855
+E-guided Recommendation: 0.83
+=====================================
+
+Running analysis on ExperimentData/Heart Failure Prediction Dataset - Preprocessed.csv with 8 features
+=====================================
+Iteration: 1/200 | ExerciseAngina | ExerciseAngina | RestingECG | ['Age' 'Sex' 'ST_Slope' 'Cholesterol' 'Oldpeak' 'ChestPainType' 'MaxHR'
+ 'RestingBP' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'ST_Slope' 'Cholesterol' 'Oldpeak' 'ChestPainType' 'MaxHR'
+ 'RestingBP' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'ST_Slope' 'Cholesterol' 'Oldpeak' 'ChestPainType' 'MaxHR'
+ 'RestingBP' 'HeartDisease' 'RestingECG'] |
+Iteration: 21/200 | FastingBS | FastingBS | FastingBS | ['Age' 'Sex' 'RestingECG' 'ST_Slope' 'ChestPainType' 'ExerciseAngina'
+ 'Cholesterol' 'Oldpeak' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'RestingECG' 'ST_Slope' 'ChestPainType' 'ExerciseAngina'
+ 'Cholesterol' 'Oldpeak' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'RestingECG' 'ST_Slope' 'ChestPainType' 'ExerciseAngina'
+ 'Cholesterol' 'Oldpeak' 'HeartDisease' 'FastingBS'] |
+Iteration: 41/200 | Oldpeak | Oldpeak | MaxHR | ['Age' 'Sex' 'Cholesterol' 'RestingECG' 'FastingBS' 'ChestPainType'
+ 'ST_Slope' 'ExerciseAngina' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'Cholesterol' 'RestingECG' 'FastingBS' 'ChestPainType'
+ 'ST_Slope' 'ExerciseAngina' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'Cholesterol' 'RestingECG' 'FastingBS' 'ChestPainType'
+ 'ST_Slope' 'ExerciseAngina' 'HeartDisease' 'MaxHR'] |
+Iteration: 61/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'FastingBS' 'Cholesterol' 'RestingBP' 'ExerciseAngina'
+ 'ChestPainType' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'Cholesterol' 'RestingBP' 'ExerciseAngina'
+ 'ChestPainType' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'Cholesterol' 'RestingBP' 'ExerciseAngina'
+ 'ChestPainType' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 81/200 | FastingBS | FastingBS | RestingECG | ['Age' 'Sex' 'ChestPainType' 'Oldpeak' 'ST_Slope' 'RestingBP'
+ 'ExerciseAngina' 'MaxHR' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'ChestPainType' 'Oldpeak' 'ST_Slope' 'RestingBP'
+ 'ExerciseAngina' 'MaxHR' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'ChestPainType' 'Oldpeak' 'ST_Slope' 'RestingBP'
+ 'ExerciseAngina' 'MaxHR' 'HeartDisease' 'RestingECG'] |
+Iteration: 101/200 | ST_Slope | ST_Slope | RestingECG | ['Age' 'Sex' 'FastingBS' 'RestingBP' 'ExerciseAngina' 'Oldpeak'
+ 'ChestPainType' 'MaxHR' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'RestingBP' 'ExerciseAngina' 'Oldpeak'
+ 'ChestPainType' 'MaxHR' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'RestingBP' 'ExerciseAngina' 'Oldpeak'
+ 'ChestPainType' 'MaxHR' 'HeartDisease' 'RestingECG'] |
+Iteration: 121/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'ChestPainType' 'Cholesterol' 'ExerciseAngina'
+ 'MaxHR' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'ChestPainType' 'Cholesterol' 'ExerciseAngina'
+ 'MaxHR' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'ChestPainType' 'Cholesterol' 'ExerciseAngina'
+ 'MaxHR' 'RestingECG' 'HeartDisease' 'ST_Slope'] |
+Iteration: 141/200 | ChestPainType | ChestPainType | RestingECG | ['Age' 'Sex' 'Cholesterol' 'MaxHR' 'RestingBP' 'Oldpeak' 'ExerciseAngina'
+ 'ST_Slope' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'Cholesterol' 'MaxHR' 'RestingBP' 'Oldpeak' 'ExerciseAngina'
+ 'ST_Slope' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'Cholesterol' 'MaxHR' 'RestingBP' 'Oldpeak' 'ExerciseAngina'
+ 'ST_Slope' 'HeartDisease' 'RestingECG'] |
+Iteration: 161/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'FastingBS' 'RestingECG' 'MaxHR' 'Cholesterol' 'RestingBP'
+ 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'RestingECG' 'MaxHR' 'Cholesterol' 'RestingBP'
+ 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'RestingECG' 'MaxHR' 'Cholesterol' 'RestingBP'
+ 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 181/200 | ChestPainType | ChestPainType | ChestPainType | ['Age' 'Sex' 'Oldpeak' 'ExerciseAngina' 'ST_Slope' 'RestingECG'
+ 'RestingBP' 'FastingBS' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'Oldpeak' 'ExerciseAngina' 'ST_Slope' 'RestingECG'
+ 'RestingBP' 'FastingBS' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'Oldpeak' 'ExerciseAngina' 'ST_Slope' 'RestingECG'
+ 'RestingBP' 'FastingBS' 'HeartDisease' 'ChestPainType'] |
+Calculating F1 Score
+Global Recommendation: 0.8000000000000002
+Icare Recommendation: 0.8000000000000002
+E-guided Recommendation: 0.805
+=====================================
+
+Running analysis on ExperimentData/Heart Failure Prediction Dataset - Preprocessed.csv with 10 features
+=====================================
+Iteration: 1/200 | RestingBP | RestingBP | RestingBP | ['Age' 'Sex' 'MaxHR' 'Cholesterol' 'ChestPainType' 'ST_Slope' 'RestingECG'
+ 'ExerciseAngina' 'FastingBS' 'Oldpeak' 'HeartDisease' 'RestingBP'] | ['Age' 'Sex' 'MaxHR' 'Cholesterol' 'ChestPainType' 'ST_Slope' 'RestingECG'
+ 'ExerciseAngina' 'FastingBS' 'Oldpeak' 'HeartDisease' 'RestingBP'] | ['Age' 'Sex' 'MaxHR' 'Cholesterol' 'ChestPainType' 'ST_Slope' 'RestingECG'
+ 'ExerciseAngina' 'FastingBS' 'Oldpeak' 'HeartDisease' 'RestingBP'] |
+Iteration: 21/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'FastingBS' 'Oldpeak' 'ExerciseAngina' 'RestingECG'
+ 'Cholesterol' 'MaxHR' 'RestingBP' 'ChestPainType' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'Oldpeak' 'ExerciseAngina' 'RestingECG'
+ 'Cholesterol' 'MaxHR' 'RestingBP' 'ChestPainType' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'FastingBS' 'Oldpeak' 'ExerciseAngina' 'RestingECG'
+ 'Cholesterol' 'MaxHR' 'RestingBP' 'ChestPainType' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 41/200 | FastingBS | FastingBS | FastingBS | ['Age' 'Sex' 'Oldpeak' 'ChestPainType' 'Cholesterol' 'MaxHR' 'ST_Slope'
+ 'RestingBP' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'Oldpeak' 'ChestPainType' 'Cholesterol' 'MaxHR' 'ST_Slope'
+ 'RestingBP' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'Oldpeak' 'ChestPainType' 'Cholesterol' 'MaxHR' 'ST_Slope'
+ 'RestingBP' 'ExerciseAngina' 'RestingECG' 'HeartDisease' 'FastingBS'] |
+Iteration: 61/200 | RestingECG | RestingECG | RestingECG | ['Age' 'Sex' 'RestingBP' 'ExerciseAngina' 'ST_Slope' 'ChestPainType'
+ 'FastingBS' 'Cholesterol' 'Oldpeak' 'MaxHR' 'HeartDisease' 'RestingECG'] | ['Age' 'Sex' 'RestingBP' 'ExerciseAngina' 'ST_Slope' 'ChestPainType'
+ 'FastingBS' 'Cholesterol' 'Oldpeak' 'MaxHR' 'HeartDisease' 'RestingECG'] | ['Age' 'Sex' 'RestingBP' 'ExerciseAngina' 'ST_Slope' 'ChestPainType'
+ 'FastingBS' 'Cholesterol' 'Oldpeak' 'MaxHR' 'HeartDisease' 'RestingECG'] |
+Iteration: 81/200 | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingECG' 'MaxHR' 'ChestPainType' 'RestingBP'
+ 'Cholesterol' 'FastingBS' 'ExerciseAngina' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingECG' 'MaxHR' 'ChestPainType' 'RestingBP'
+ 'Cholesterol' 'FastingBS' 'ExerciseAngina' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] | ['Age' 'Sex' 'RestingECG' 'MaxHR' 'ChestPainType' 'RestingBP'
+ 'Cholesterol' 'FastingBS' 'ExerciseAngina' 'Oldpeak' 'HeartDisease'
+ 'ST_Slope'] |
+Iteration: 101/200 | Cholesterol | Cholesterol | Cholesterol | ['Age' 'Sex' 'FastingBS' 'RestingBP' 'MaxHR' 'ST_Slope' 'ExerciseAngina'
+ 'Oldpeak' 'ChestPainType' 'RestingECG' 'HeartDisease' 'Cholesterol'] | ['Age' 'Sex' 'FastingBS' 'RestingBP' 'MaxHR' 'ST_Slope' 'ExerciseAngina'
+ 'Oldpeak' 'ChestPainType' 'RestingECG' 'HeartDisease' 'Cholesterol'] | ['Age' 'Sex' 'FastingBS' 'RestingBP' 'MaxHR' 'ST_Slope' 'ExerciseAngina'
+ 'Oldpeak' 'ChestPainType' 'RestingECG' 'HeartDisease' 'Cholesterol'] |
+Iteration: 121/200 | FastingBS | FastingBS | FastingBS | ['Age' 'Sex' 'ST_Slope' 'MaxHR' 'Oldpeak' 'RestingBP' 'ChestPainType'
+ 'ExerciseAngina' 'Cholesterol' 'RestingECG' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'ST_Slope' 'MaxHR' 'Oldpeak' 'RestingBP' 'ChestPainType'
+ 'ExerciseAngina' 'Cholesterol' 'RestingECG' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'ST_Slope' 'MaxHR' 'Oldpeak' 'RestingBP' 'ChestPainType'
+ 'ExerciseAngina' 'Cholesterol' 'RestingECG' 'HeartDisease' 'FastingBS'] |
+Iteration: 141/200 | ChestPainType | ChestPainType | ChestPainType | ['Age' 'Sex' 'FastingBS' 'ExerciseAngina' 'ST_Slope' 'RestingBP'
+ 'Cholesterol' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ChestPainType'] | ['Age' 'Sex' 'FastingBS' 'ExerciseAngina' 'ST_Slope' 'RestingBP'
+ 'Cholesterol' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ChestPainType'] | ['Age' 'Sex' 'FastingBS' 'ExerciseAngina' 'ST_Slope' 'RestingBP'
+ 'Cholesterol' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
+ 'ChestPainType'] |
+Iteration: 161/200 | ExerciseAngina | ExerciseAngina | ExerciseAngina | ['Age' 'Sex' 'RestingECG' 'RestingBP' 'FastingBS' 'ST_Slope' 'MaxHR'
+ 'ChestPainType' 'Cholesterol' 'Oldpeak' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'RestingECG' 'RestingBP' 'FastingBS' 'ST_Slope' 'MaxHR'
+ 'ChestPainType' 'Cholesterol' 'Oldpeak' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'RestingECG' 'RestingBP' 'FastingBS' 'ST_Slope' 'MaxHR'
+ 'ChestPainType' 'Cholesterol' 'Oldpeak' 'HeartDisease' 'ExerciseAngina'] |
+Iteration: 181/200 | MaxHR | MaxHR | MaxHR | ['Age' 'Sex' 'Cholesterol' 'RestingBP' 'RestingECG' 'ChestPainType'
+ 'Oldpeak' 'ExerciseAngina' 'FastingBS' 'ST_Slope' 'HeartDisease' 'MaxHR'] | ['Age' 'Sex' 'Cholesterol' 'RestingBP' 'RestingECG' 'ChestPainType'
+ 'Oldpeak' 'ExerciseAngina' 'FastingBS' 'ST_Slope' 'HeartDisease' 'MaxHR'] | ['Age' 'Sex' 'Cholesterol' 'RestingBP' 'RestingECG' 'ChestPainType'
+ 'Oldpeak' 'ExerciseAngina' 'FastingBS' 'ST_Slope' 'HeartDisease' 'MaxHR'] |
+Calculating F1 Score
+Global Recommendation: 0.8599999999999999
+Icare Recommendation: 0.8599999999999999
+E-guided Recommendation: 0.8599999999999999
+=====================================
