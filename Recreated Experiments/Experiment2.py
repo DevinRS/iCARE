@@ -21,7 +21,7 @@ for size in starting_feature_size:
     print("=====================================")
 
     # Run the analysis
-    global_prediction, icare_prediction, global_lw_prediction, icare_lw_prediction, y_actual = run_analysis_lw_split(df, target, size, static_features=starting_features[:size], iteration=10, split=0.2)
+    global_prediction, icare_prediction, global_lw_prediction, icare_lw_prediction, y_actual = run_analysis_lw_split(df, target, size, static_features=starting_features[:size], iteration=20, split=0.2)
 
     # ROC-AUC calculation
     accuracy_split = []

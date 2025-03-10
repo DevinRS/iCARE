@@ -24,7 +24,7 @@ for src in src_list:
     df = pd.read_csv(src)
 
     # Run the analysis
-    global_prediction, icare_prediction, global_lw_prediction, icare_lw_prediction, y_actual = run_analysis_lw_split(df, 'Target', 1, static_features=['X'], iteration=10, split=0.2)
+    global_prediction, icare_prediction, global_lw_prediction, icare_lw_prediction, y_actual = run_analysis_lw_split(df, 'Target', 1, static_features=['X'], iteration=100, split=0.2)
     global_roc = 0
     icare_roc = 0
     global_lw_roc = 0

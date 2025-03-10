@@ -182,23 +182,30 @@ def run_analysis_lw_split(df: pd.DataFrame, y_col: str, number_of_features: int,
         icare_prediction_lw_split = []
         y_actual_split = []
         print_bool = True
+        # add global marker so that we don't have to train global every time
+        global_train = True
+        global_features = None
+        df_global = None
+        model_global = None
         for index, sample in samples.iterrows():
             # convert to dataframe
             sample = pd.DataFrame(sample).T
 
             # Generate recommendation
-            global_recommendation_list = global_recommendation(df_case, sample, y_col)
+            if global_train:
+                global_recommendation_list = global_recommendation(df_case, sample, y_col)
             # icare_recommendation_list = icare_cost_recommendation(df_case, sample, y_col, cost_arr)
             icare_recommendation_list, weights = icare_recommendation(df_case, sample, y_col, return_weights=True)
 
             # Generate feature list
-            global_features = np.array(sample.columns)
-            for feature in global_recommendation_list:
-                if feature not in global_features:
-                    global_features = np.append(global_features, feature)
-                    if print_bool:
-                        print_statement += f"{feature} | "
-                    break
+            if global_train:
+                global_features = np.array(sample.columns)
+                for feature in global_recommendation_list:
+                    if feature not in global_features:
+                        global_features = np.append(global_features, feature)
+                        if print_bool:
+                            print_statement += f"{feature} | "
+                        break
             icare_features = np.array(sample.columns)
             for feature in icare_recommendation_list:
                 if feature not in icare_features:
@@ -216,16 +223,21 @@ def run_analysis_lw_split(df: pd.DataFrame, y_col: str, number_of_features: int,
             icare_sample = feature_oracle(df_original, sample, icare_features)
 
             # Train a model using df_case with either global_features or icare_features
-            df_global = df_case[global_features]
+            if global_train:
+                df_global = df_case[global_features]
             df_icare = df_case[icare_features]
             X_global = df_global.drop(y_col, axis=1)
             X_icare = df_icare.drop(y_col, axis=1)
             y = df_case[y_col]
-            model_global = LogisticRegression(max_iter=5000)
+            if global_train:
+                model_global = LogisticRegression(max_iter=5000)
+                model_global.fit(X_global, y)
+                global_train = False
+            # model_global = LogisticRegression(max_iter=5000)
             model_icare = LogisticRegression(max_iter=5000)
             model_global_lw = LogisticRegression(max_iter=5000)
             model_icare_lw = LogisticRegression(max_iter=5000)
-            model_global.fit(X_global, y)
+            # model_global.fit(X_global, y)
             model_icare.fit(X_icare, y)
             model_global_lw.fit(X_global, y, sample_weight=weights)
             model_icare_lw.fit(X_icare, y, sample_weight=weights)
@@ -316,6 +328,113 @@ def run_analysis_eguided(df: pd.DataFrame, y_col: str, number_of_features: int, 
         icare_prediction.append(model_icare.predict(icare_sample.drop(y_col, axis=1))[0])
         eguided_prediction.append(model_eguided.predict(eguided_sample.drop(y_col, axis=1))[0])
         y_actual.append(sample[y_col].values[0])
+
+        if i%(iteration/10) == 0:
+            print(print_statement)
+
+    return np.array(global_prediction), np.array(icare_prediction), np.array(eguided_prediction), np.array(y_actual)
+
+
+# function: run_analysis_eguided_split(df: pd.DataFrame, y_col: str, number_of_features: int, str, static_features: list (optional), iteration: int (optional), split: float = 0.2) -> np.ndarray
+# Create a case. Generate recommendation for that case. 
+@ignore_warnings(category=ConvergenceWarning)
+def run_analysis_eguided_split(df: pd.DataFrame, y_col: str, number_of_features: int, static_features: list = None, iteration: int = 1, split: float = 0.2) -> np.ndarray:
+    global_prediction = []
+    icare_prediction = []
+    eguided_prediction = []
+    y_actual = []
+    df_original = df.copy()
+    for i in range(iteration):
+        print_statement = f"Iteration: {i+1}/{iteration} | "
+        # Generate a case
+        df_case, samples = create_case_split(df, number_of_features, y_col, static_features, split)
+
+        # use pandas iterrows to iterate through the samples
+        global_prediction_split = []
+        icare_prediction_split = []
+        eguided_prediction_split = []
+        y_actual_split = []
+        print_bool = True
+        # add global marker so that we don't have to train global every time
+        global_train = True
+        global_features = None
+        df_global = None
+        model_global = None
+        for index, sample in samples.iterrows():
+            # convert to dataframe
+            sample = pd.DataFrame(sample).T
+
+            # Generate recommendation
+            if global_train:
+                global_recommendation_list = global_recommendation(df_case, sample, y_col)
+            # icare_recommendation_list = icare_cost_recommendation(df_case, sample, y_col, cost_arr)
+            icare_recommendation_list = icare_recommendation(df_case, sample, y_col)
+            eguided_recommendation_list = eguided_recommendation(df_case, sample, y_col)
+
+            # Generate feature list
+            if global_train:
+                global_features = np.array(sample.columns)
+                for feature in global_recommendation_list:
+                    if feature not in global_features:
+                        global_features = np.append(global_features, feature)
+                        if print_bool:
+                            print_statement += f"{feature} | "
+                        break
+            icare_features = np.array(sample.columns)
+            for feature in icare_recommendation_list:
+                if feature not in icare_features:
+                    icare_features = np.append(icare_features, feature)
+                    if print_bool:
+                        print_statement += f"{feature} | "
+                    break
+            eguided_features = np.array(sample.columns)
+            for feature in eguided_recommendation_list:
+                if feature not in eguided_features:
+                    eguided_features = np.append(eguided_features, feature)
+                    if print_bool:
+                        print_statement += f"{feature} | "
+                    break
+            if print_bool:
+                print_statement += f"{global_features} | "
+                print_statement += f"{icare_features} | "
+                print_statement += f"{eguided_features} | "
+                print_bool = False
+
+            # Generate sample
+            global_sample = feature_oracle(df_original, sample, global_features)
+            icare_sample = feature_oracle(df_original, sample, icare_features)
+            eguided_sample = feature_oracle(df_original, sample, eguided_features)
+
+            # Train a model using df_case with either global_features or icare_features
+            if global_train:
+                df_global = df_case[global_features]
+            df_icare = df_case[icare_features]
+            df_eguided = df_case[eguided_features]
+            X_global = df_global.drop(y_col, axis=1)
+            X_icare = df_icare.drop(y_col, axis=1)
+            X_eguided = df_eguided.drop(y_col, axis=1)
+            y = df_case[y_col]
+            if global_train:
+                model_global = LogisticRegression(max_iter=5000)
+                model_global.fit(X_global, y)
+                global_train = False
+            # model_global = LogisticRegression(max_iter=5000)
+            model_icare = LogisticRegression(max_iter=5000)
+            model_eguided = LogisticRegression(max_iter=5000)
+            # model_global.fit(X_global, y)
+            model_icare.fit(X_icare, y)
+            model_eguided.fit(X_eguided, y)
+
+            # Predict the sample
+            global_prediction_split.append(model_global.predict(global_sample.drop(y_col, axis=1))[0])
+            icare_prediction_split.append(model_icare.predict(icare_sample.drop(y_col, axis=1))[0])
+            eguided_prediction_split.append(model_eguided.predict(eguided_sample.drop(y_col, axis=1))[0])
+            y_actual_split.append(sample[y_col].values[0])
+
+        global_prediction.append(global_prediction_split)
+        icare_prediction.append(icare_prediction_split)
+        eguided_prediction.append(eguided_prediction_split)
+        y_actual.append(y_actual_split)
 
         if i%(iteration/10) == 0:
             print(print_statement)
