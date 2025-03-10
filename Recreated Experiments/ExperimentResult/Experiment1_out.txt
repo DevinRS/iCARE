@@ -1,124 +1,124 @@
 Running analysis on ExperimentData/synthetic_dataset1.csv
 =====================================
-Iteration: 1/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 2/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 3/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 4/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 5/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 6/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 7/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 8/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 9/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 10/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 1/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 11/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 21/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 31/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 41/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 51/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 61/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 71/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 81/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 91/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
 ROC-AUC:
-Global Recommendation: 0.8071149267399269
-Icare Recommendation: 0.9857142857142858
-Global Recommendation with LW: 0.8263997252747253
-Icare Recommendation with LW: 0.9919642857142857
+Global Recommendation: 0.8499431956931959
+Icare Recommendation: 0.9836607836607836
+Global Recommendation with LW: 0.8714865412365412
+Icare Recommendation with LW: 0.9866910866910865
 =====================================
 Accuracy:
-Global Recommendation: 0.74
-Icare Recommendation: 0.9349999999999999
-Global Recommendation with LW: 0.71
-Icare Recommendation with LW: 0.9549999999999998
+Global Recommendation: 0.7750000000000001
+Icare Recommendation: 0.875
+Global Recommendation with LW: 0.78
+Icare Recommendation with LW: 0.9149999999999998
 =====================================
 
 Running analysis on ExperimentData/synthetic_dataset2.csv
 =====================================
-Iteration: 1/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 2/10 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 3/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 4/10 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 5/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 6/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 7/10 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 8/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 9/10 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 10/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 1/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 11/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 21/100 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 31/100 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 41/100 | Feature 2 | Feature 1 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 51/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 61/100 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 71/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 81/100 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 91/100 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
 ROC-AUC:
-Global Recommendation: 0.5603870157620158
-Icare Recommendation: 0.5695637973137974
-Global Recommendation with LW: 0.7364546842046842
-Icare Recommendation with LW: 0.8681107642357644
+Global Recommendation: 0.4867604617604617
+Icare Recommendation: 0.5058802308802309
+Global Recommendation with LW: 0.7361138861138862
+Icare Recommendation with LW: 0.861579045954046
 =====================================
 Accuracy:
-Global Recommendation: 0.545
-Icare Recommendation: 0.5399999999999999
-Global Recommendation with LW: 0.68
-Icare Recommendation with LW: 0.8
+Global Recommendation: 0.5299999999999999
+Icare Recommendation: 0.5299999999999999
+Global Recommendation with LW: 0.6799999999999999
+Icare Recommendation with LW: 0.77
 =====================================
 
 Running analysis on ExperimentData/synthetic_dataset3.csv
 =====================================
-Iteration: 1/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 2/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 3/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 4/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 5/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 6/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 7/10 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 8/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 9/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 10/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 1/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 11/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 21/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 31/100 | Feature 2 | Feature 1 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 41/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 51/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 61/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 71/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 81/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 91/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
 ROC-AUC:
-Global Recommendation: 0.8694339826839826
-Icare Recommendation: 0.9888573232323232
-Global Recommendation with LW: 0.8101872294372295
-Icare Recommendation with LW: 0.9887626262626263
+Global Recommendation: 0.849771658896659
+Icare Recommendation: 0.9926569957819957
+Global Recommendation with LW: 0.8710594405594405
+Icare Recommendation with LW: 0.9959280303030305
 =====================================
 Accuracy:
-Global Recommendation: 0.8150000000000001
-Icare Recommendation: 0.9350000000000002
-Global Recommendation with LW: 0.7499999999999999
-Icare Recommendation with LW: 0.95
+Global Recommendation: 0.8049999999999999
+Icare Recommendation: 0.925
+Global Recommendation with LW: 0.79
+Icare Recommendation with LW: 0.9650000000000001
 =====================================
 
 Running analysis on ExperimentData/synthetic_dataset4.csv
 =====================================
-Iteration: 1/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 2/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 3/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 4/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 5/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 6/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 7/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 8/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 9/10 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
-Iteration: 10/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 1/100 | Feature 2 | Feature 1 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 11/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 21/100 | Feature 1 | Feature 2 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 31/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 41/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 51/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 61/100 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 71/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 81/100 | Feature 2 | Feature 2 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 2'] | 
+Iteration: 91/100 | Feature 2 | Feature 1 | ['X' 'Target' 'Feature 2'] | ['X' 'Target' 'Feature 1'] | 
 ROC-AUC:
-Global Recommendation: 0.8040352841602841
-Icare Recommendation: 0.7865519758019758
-Global Recommendation with LW: 0.7356404151404152
-Icare Recommendation with LW: 0.7624932151182151
+Global Recommendation: 0.7676679292929293
+Icare Recommendation: 0.7196717171717171
+Global Recommendation with LW: 0.7192386363636364
+Icare Recommendation with LW: 0.7169179292929293
 =====================================
 Accuracy:
-Global Recommendation: 0.735
-Icare Recommendation: 0.735
-Global Recommendation with LW: 0.7
-Icare Recommendation with LW: 0.7150000000000001
+Global Recommendation: 0.705
+Icare Recommendation: 0.69
+Global Recommendation with LW: 0.72
+Icare Recommendation with LW: 0.7
 =====================================
 
 Running analysis on ExperimentData/synthetic_dataset5.csv
 =====================================
-Iteration: 1/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 2/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 3/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 4/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 5/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 6/10 | Feature 1 | Feature 3 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 3'] | 
-Iteration: 7/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 8/10 | Feature 1 | Feature 3 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 3'] | 
-Iteration: 9/10 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
-Iteration: 10/10 | Feature 1 | Feature 3 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 3'] | 
+Iteration: 1/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 11/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 21/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 31/100 | Feature 1 | Feature 3 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 3'] | 
+Iteration: 41/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 51/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 61/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 71/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 81/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
+Iteration: 91/100 | Feature 1 | Feature 1 | ['X' 'Target' 'Feature 1'] | ['X' 'Target' 'Feature 1'] | 
 ROC-AUC:
-Global Recommendation: 0.8234972804972804
-Icare Recommendation: 0.8093971583971584
-Global Recommendation with LW: 0.71508658008658
-Icare Recommendation with LW: 0.737981795981796
+Global Recommendation: 0.8640709984459984
+Icare Recommendation: 0.8238372738372739
+Global Recommendation with LW: 0.8066357253857254
+Icare Recommendation with LW: 0.7754467754467754
 =====================================
 Accuracy:
-Global Recommendation: 0.825
-Icare Recommendation: 0.8
-Global Recommendation with LW: 0.705
-Icare Recommendation with LW: 0.705
+Global Recommendation: 0.8600000000000001
+Icare Recommendation: 0.76
+Global Recommendation with LW: 0.76
+Icare Recommendation with LW: 0.7299999999999999
 =====================================
