@@ -5,6 +5,11 @@ import shap
 from calculate_weight import calculate_weight
 from matplotlib import pyplot as plt
 import xgboost as xgb
+from create_case import create_case
+from sklearn.model_selection import train_test_split
+import random
+from sklearn.metrics import accuracy_score
+from sklearn.linear_model import LogisticRegressionCV
 
 # function: global_recommendation(df: pd.DataFrame, y_col: str) -> np.ndarray
 # Train a model using the dataframe. Analyze the model using SHAP values. Return the global recommendation based on the SHAP values.
@@ -216,16 +221,52 @@ def eguided_recommendation_xgboost(df: pd.DataFrame, sample: pd.DataFrame, y_col
     features = [x for _, x in sorted(zip(shap_values, features), reverse=True)]
     return features
 
+def SFS_recommendation(df: pd.DataFrame, sample: pd.DataFrame, y_col: str) -> np.ndarray:
+    random_key = random.randint(0, 1000000)
+    y = df[y_col]
+    # train a logistic regression model
+    column_not_in_sample = [col for col in df.columns if col not in sample.columns]
+
+    performance = []
+    for feature in column_not_in_sample:
+        column_include = sample.columns.tolist() + [feature]
+        X = df[column_include]
+        X = X.drop(y_col, axis=1)
+        # split the data
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=random_key)
+        # train the model
+        model = LogisticRegression()
+        model.fit(X_train, y_train)
+        # get the score
+        score = accuracy_score(y_test, model.predict(X_test))
+        performance.append((feature, score))
+    # sort the performance
+    performance = sorted(performance, key=lambda x: x[1], reverse=True)
+    # get the features
+    features = [x[0] for x in performance]
+    # append the rest of the feature that is in df but not in features
+    features = features + [col for col in df.columns if col not in features]
+    # drop y_col
+    features = [col for col in features if col != y_col]
+    return features
+
+def LASSO_recommendation(df: pd.DataFrame, sample: pd.DataFrame, y_col: str) -> np.ndarray:
+    random_key = random.randint(0, 1000000)
+    y = df[y_col]
+    X = df.drop(columns=[y_col])  # Exclude target variable
+
+    # Train Lasso Logistic Regression (L1 penalty)
+    model = LogisticRegressionCV(
+        penalty='l1', solver='liblinear', cv=5, random_state=random_key
+    ).fit(X, y)
+
+    # Get absolute coefficients
+    feature_importance = abs(model.coef_[0])
+
+    # Rank features based on coefficient magnitude
+    feature_ranking = sorted(zip(X.columns, feature_importance), key=lambda x: x[1], reverse=True)
     
+    # Extract sorted feature names
+    sorted_features = [feature for feature, coef in feature_ranking]
 
-
-# df = pd.read_csv("Sample Dataset\pool_of_known_cases.csv")
-# samples = pd.read_csv("Sample Dataset\samples.csv")
-# y_col = "target"
-
-# sample = pd.DataFrame(samples.iloc[25]).T
-# sample['target'] = 0
-
-# # print(eguided_recommendation(df, sample, y_col))
-# print(icare_recommendation_xgboost(df, sample, y_col))
-# print(eguided_recommendation_xgboost(df, sample, y_col))
+    return sorted_features
