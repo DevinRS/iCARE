@@ -1,0 +1,335 @@
+Running analysis on ExperimentData\Heart Disease Dataset - Preprocessed.csv with 2 features
+=====================================
+Iteration: 1/10 | cp | cp | oldpeak | oldpeak | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 2/10 | cp | cp | oldpeak | exang | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'exang'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 3/10 | cp | cp | oldpeak | exang | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'exang'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 4/10 | cp | exang | oldpeak | cp | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'exang'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 5/10 | cp | cp | oldpeak | cp | ca | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'ca'] |
+Iteration: 6/10 | ca | ca | thalach | ca | cp | ['age' 'sex' 'target' 'ca'] | ['age' 'sex' 'target' 'ca'] | ['age' 'sex' 'target' 'thalach'] | ['age' 'sex' 'target' 'ca'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 7/10 | cp | cp | oldpeak | exang | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'exang'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 8/10 | ca | cp | thalach | cp | cp | ['age' 'sex' 'target' 'ca'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'thalach'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 9/10 | cp | exang | oldpeak | oldpeak | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'exang'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'cp'] |
+Iteration: 10/10 | cp | cp | oldpeak | cp | cp | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'oldpeak'] | ['age' 'sex' 'target' 'cp'] | ['age' 'sex' 'target' 'cp'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Disease Dataset - Preprocessed.csv with 4 features
+=====================================
+Iteration: 1/10 | cp | exang | thalach | cp | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'exang'] | ['age' 'sex' 'fbs' 'chol' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 2/10 | cp | ca | oldpeak | ca | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 3/10 | cp | oldpeak | thalach | exang | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'target' 'exang'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 4/10 | cp | exang | oldpeak | cp | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'exang'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 5/10 | cp | thalach | oldpeak | exang | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'exang'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 6/10 | cp | ca | oldpeak | ca | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 7/10 | cp | cp | oldpeak | exang | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'exang'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 8/10 | cp | oldpeak | oldpeak | ca | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+Iteration: 9/10 | cp | cp | oldpeak | cp | ca | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'ca'] |
+Iteration: 10/10 | cp | exang | thalach | thalach | cp | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'target' 'exang'] | ['age' 'sex' 'fbs' 'chol' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'target' 'cp'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Disease Dataset - Preprocessed.csv with 6 features
+=====================================
+Iteration: 1/10 | ca | cp | thalach | oldpeak | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 2/10 | cp | oldpeak | thalach | ca | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 3/10 | cp | ca | thalach | cp | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 4/10 | cp | cp | oldpeak | slope | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'slope'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 5/10 | cp | ca | thalach | ca | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 6/10 | cp | cp | oldpeak | ca | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 7/10 | cp | ca | oldpeak | ca | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 8/10 | cp | ca | oldpeak | cp | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 9/10 | cp | oldpeak | thalach | slope | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'slope'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+Iteration: 10/10 | cp | cp | thalach | cp | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'thalach'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'target' 'ca'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Disease Dataset - Preprocessed.csv with 8 features
+=====================================
+Iteration: 1/10 | cp | cp | oldpeak | cp | exang | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] |
+Iteration: 2/10 | cp | cp | oldpeak | cp | exang | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] |
+Iteration: 3/10 | ca | thal | oldpeak | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] |
+Iteration: 4/10 | cp | ca | oldpeak | thal | exang | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] |
+Iteration: 5/10 | ca | cp | oldpeak | ca | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] |
+Iteration: 6/10 | ca | thal | oldpeak | ca | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] |
+Iteration: 7/10 | cp | cp | oldpeak | exang | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] |
+Iteration: 8/10 | cp | ca | oldpeak | ca | exang | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] |
+Iteration: 9/10 | cp | ca | oldpeak | exang | exang | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] |
+Iteration: 10/10 | cp | thal | oldpeak | ca | exang | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'oldpeak'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'target'
+ 'exang'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Disease Dataset - Preprocessed.csv with 10 features
+=====================================
+Iteration: 1/10 | cp | thal | thal | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] |
+Iteration: 2/10 | cp | thal | thal | thal | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] |
+Iteration: 3/10 | cp | ca | thal | ca | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] |
+Iteration: 4/10 | cp | cp | thal | cp | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] |
+Iteration: 5/10 | cp | thal | thal | ca | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] |
+Iteration: 6/10 | cp | ca | thal | thal | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] |
+Iteration: 7/10 | cp | ca | cp | ca | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] |
+Iteration: 8/10 | cp | cp | thal | cp | ca | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] |
+Iteration: 9/10 | cp | cp | thal | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'thal'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] |
+Iteration: 10/10 | cp | ca | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'ca'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'target' 'cp'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Disease Dataset - Preprocessed.csv with 12 features
+=====================================
+Iteration: 1/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 2/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 3/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 4/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 5/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 6/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 7/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 8/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 9/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+Iteration: 10/10 | cp | cp | cp | cp | cp | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] | ['age' 'sex' 'fbs' 'chol' 'trestbps' 'restecg' 'thalach' 'slope' 'oldpeak'
+ 'exang' 'thal' 'ca' 'target' 'cp'] |
+=====================================
+
+Iteration 1
+Number of Initial Features: 2
+=====================================
+ROC-AUC Score:
+Global: 0.7450980420179338
+SLS: 0.7432472156225319
+Lasso: 0.7114471910576738
+iCARE: 0.8171041787250204
+eGuided: 0.7263051013410442
+Accuracy Score:
+Global: 0.746341463414634
+SLS: 0.7443902439024389
+Lasso: 0.7121951219512194
+iCARE: 0.8175609756097562
+eGuided: 0.7287804878048779
+=====================================
+
+Iteration 2
+Number of Initial Features: 4
+=====================================
+ROC-AUC Score:
+Global: 0.7616585332312327
+SLS: 0.7437031796830956
+Lasso: 0.7357589952995738
+iCARE: 0.9063683019221707
+eGuided: 0.761278579402837
+Accuracy Score:
+Global: 0.7609756097560975
+SLS: 0.7448780487804877
+Lasso: 0.7356097560975609
+iCARE: 0.9058536585365854
+eGuided: 0.7599999999999999
+=====================================
+
+Iteration 3
+Number of Initial Features: 6
+=====================================
+ROC-AUC Score:
+Global: 0.7819845363742954
+SLS: 0.7635446631930403
+Lasso: 0.7350422191447903
+iCARE: 0.9129000744093287
+eGuided: 0.7566943699663462
+Accuracy Score:
+Global: 0.7809756097560975
+SLS: 0.7653658536585365
+Lasso: 0.7346341463414633
+iCARE: 0.9117073170731708
+eGuided: 0.757560975609756
+=====================================
+
+Iteration 4
+Number of Initial Features: 8
+=====================================
+ROC-AUC Score:
+Global: 0.7690987649469445
+SLS: 0.7755506835502697
+Lasso: 0.7551174990569635
+iCARE: 0.9017243852574819
+eGuided: 0.7699459962711914
+Accuracy Score:
+Global: 0.7697560975609755
+SLS: 0.7765853658536584
+Lasso: 0.7565853658536584
+iCARE: 0.902439024390244
+eGuided: 0.7717073170731706
+=====================================
+
+Iteration 5
+Number of Initial Features: 10
+=====================================
+ROC-AUC Score:
+Global: 0.8052503139143994
+SLS: 0.7960078584883729
+Lasso: 0.7972799848610013
+iCARE: 0.8730135434942368
+eGuided: 0.7921226623811984
+Accuracy Score:
+Global: 0.8063414634146341
+SLS: 0.7965853658536585
+Lasso: 0.7970731707317072
+iCARE: 0.8736585365853659
+eGuided: 0.7926829268292682
+=====================================
+
+Iteration 6
+Number of Initial Features: 12
+=====================================
+ROC-AUC Score:
+Global: 0.8360935718531085
+SLS: 0.8360935718531085
+Lasso: 0.8360935718531085
+iCARE: 0.8360935718531085
+eGuided: 0.8360935718531085
+Accuracy Score:
+Global: 0.8375609756097561
+SLS: 0.8375609756097561
+Lasso: 0.8375609756097561
+iCARE: 0.8375609756097561
+eGuided: 0.8375609756097561
+=====================================
