@@ -1,304 +1,355 @@
-Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 2 features
+Running analysis on ExperimentData\Heart Failure Prediction - Preprocessed.csv with 2 features
 =====================================
-Iteration: 1/10 | ST_Slope | ST_Slope | Oldpeak | ChestPainType | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
-Iteration: 2/10 | ST_Slope | ST_Slope | ST_Slope | FastingBS | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'FastingBS'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
-Iteration: 3/10 | ST_Slope | ST_Slope | Oldpeak | ChestPainType | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'HeartDisease' 'ChestPainType'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
-Iteration: 4/10 | ST_Slope | ST_Slope | ExerciseAngina | Cholesterol | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'HeartDisease' 'Cholesterol'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |  
-Iteration: 5/10 | ST_Slope | ST_Slope | Oldpeak | MaxHR | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'HeartDisease' 'MaxHR'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
-Iteration: 6/10 | ST_Slope | ST_Slope | ExerciseAngina | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |        
-Iteration: 7/10 | ST_Slope | ST_Slope | Oldpeak | Oldpeak | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
-Iteration: 8/10 | ST_Slope | ST_Slope | ExerciseAngina | ExerciseAngina | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
-Iteration: 9/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |
-Iteration: 10/10 | ST_Slope | ST_Slope | ExerciseAngina | ST_Slope | ST_Slope | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'HeartDisease' 'ST_Slope'] |       
-=====================================
-
-Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 4 features
-=====================================
-Iteration: 1/10 | ST_Slope | ST_Slope | Oldpeak | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 2/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 3/10 | ST_Slope | ST_Slope | Oldpeak | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 4/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 5/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 6/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 7/10 | ST_Slope | ST_Slope | Oldpeak | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 8/10 | ST_Slope | ST_Slope | Oldpeak | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 9/10 | ST_Slope | ST_Slope | Oldpeak | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
-Iteration: 10/10 | ST_Slope | ST_Slope | Oldpeak | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'Oldpeak'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'HeartDisease' 'ChestPainType'] |
+Iteration: 1/10 | ejection_fraction | platelets | ejection_fraction | high_blood_pressure | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'platelets'] | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'high_blood_pressure'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 2/10 | ejection_fraction | creatinine_phosphokinase | serum_creatinine | platelets | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'creatinine_phosphokinase'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'platelets'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 3/10 | ejection_fraction | serum_creatinine | serum_creatinine | platelets | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'platelets'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 4/10 | ejection_fraction | ejection_fraction | serum_creatinine | diabetes | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 5/10 | ejection_fraction | anaemia | serum_creatinine | smoking | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'smoking'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 6/10 | ejection_fraction | anaemia | ejection_fraction | ejection_fraction | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 7/10 | ejection_fraction | smoking | serum_creatinine | smoking | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'smoking'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'smoking'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 8/10 | ejection_fraction | serum_sodium | serum_creatinine | anaemia | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'serum_sodium'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 9/10 | ejection_fraction | anaemia | serum_creatinine | ejection_fraction | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
+Iteration: 10/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | diabetes | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'DEATH_EVENT' 'diabetes'] |
 =====================================
 
-Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 6 features
+Running analysis on ExperimentData\Heart Failure Prediction - Preprocessed.csv with 4 features
 =====================================
-Iteration: 1/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 2/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 3/10 | ST_Slope | ST_Slope | ExerciseAngina | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ExerciseAngina'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 4/10 | ST_Slope | ChestPainType | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ChestPainType'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 5/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 6/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 7/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 8/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 9/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
-Iteration: 10/10 | ST_Slope | ExerciseAngina | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ExerciseAngina'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'HeartDisease'
- 'ST_Slope'] |
+Iteration: 1/10 | ejection_fraction | ejection_fraction | ejection_fraction | anaemia | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 2/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 3/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 4/10 | ejection_fraction | creatinine_phosphokinase | serum_creatinine | ejection_fraction | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT'
+ 'creatinine_phosphokinase'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 5/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 6/10 | ejection_fraction | anaemia | serum_creatinine | ejection_fraction | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 7/10 | ejection_fraction | diabetes | serum_creatinine | ejection_fraction | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'diabetes'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 8/10 | ejection_fraction | ejection_fraction | ejection_fraction | diabetes | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'diabetes'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+Iteration: 9/10 | ejection_fraction | serum_creatinine | serum_creatinine | ejection_fraction | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
+
+Iteration: 10/10 | ejection_fraction | ejection_fraction | serum_creatinine | serum_creatinine | anaemia | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'DEATH_EVENT' 'anaemia'] |
 =====================================
 
-Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 8 features
+Running analysis on ExperimentData\Heart Failure Prediction - Preprocessed.csv with 6 features
 =====================================
-Iteration: 1/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] |
-Iteration: 2/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ChestPainType'] |
-Iteration: 3/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ChestPainType'] |
-Iteration: 4/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] |
-Iteration: 5/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ChestPainType'] |
-Iteration: 6/10 | ST_Slope | ST_Slope | ExerciseAngina | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ExerciseAngina'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ChestPainType'] |
-Iteration: 7/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ChestPainType | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ChestPainType'] |
-Iteration: 8/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] |
-Iteration: 9/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] |
-Iteration: 10/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'HeartDisease' 'ST_Slope'] |
+Iteration: 1/10 | ejection_fraction | high_blood_pressure | serum_creatinine | serum_sodium | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_sodium'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 2/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 3/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 4/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 5/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 6/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 7/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 8/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 9/10 | ejection_fraction | high_blood_pressure | serum_creatinine | anaemia | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 10/10 | ejection_fraction | anaemia | serum_creatinine | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'anaemia'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'DEATH_EVENT' 'high_blood_pressure'] |
 =====================================
 
-Running analysis on ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv with 10 features
+Running analysis on ExperimentData\Heart Failure Prediction - Preprocessed.csv with 8 features
 =====================================
-Iteration: 1/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 2/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 3/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 4/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 5/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 6/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 7/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 8/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 9/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
-Iteration: 10/10 | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ST_Slope | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] | ['Age' 'Sex' 'RestingBP' 'RestingECG' 'MaxHR' 'Oldpeak' 'Cholesterol'       
- 'FastingBS' 'ExerciseAngina' 'ChestPainType' 'HeartDisease' 'ST_Slope'] |
+Iteration: 1/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | high_blood_pressure | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'high_blood_pressure'] |
+Iteration: 2/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 3/10 | ejection_fraction | serum_creatinine | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 4/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 5/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 6/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 7/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 8/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 9/10 | ejection_fraction | serum_creatinine | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 10/10 | ejection_fraction | ejection_fraction | serum_creatinine | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'serum_creatinine'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'DEATH_EVENT' 'ejection_fraction'] |
+=====================================
+
+Running analysis on ExperimentData\Heart Failure Prediction - Preprocessed.csv with 10 features
+=====================================
+Iteration: 1/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 2/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 3/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 4/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 5/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 6/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 7/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 8/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 9/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
+Iteration: 10/10 | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ejection_fraction | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] | ['age' 'sex' 'smoking' 'platelets' 'diabetes' 'creatinine_phosphokinase'
+ 'serum_sodium' 'anaemia' 'high_blood_pressure' 'serum_creatinine'
+ 'DEATH_EVENT' 'ejection_fraction'] |
 =====================================
 
 Iteration 1
 Number of Initial Features: 2
 =====================================
 ROC-AUC Score:
-Global: 0.8133818973640468
-SLS: 0.8133818973640468
-Lasso: 0.7498708937764988
-iCARE: 0.7774983740311271
-eGuided: 0.8133818973640468
+Global: 0.5762892117306131
+SLS: 0.5389342215046009
+Lasso: 0.5618758891593958
+iCARE: 0.546721953671923
+eGuided: 0.532509091296576
 Accuracy Score:
-Global: 0.8114754098360656
-SLS: 0.8114754098360656
-Lasso: 0.7524590163934428
-iCARE: 0.7830601092896174
-eGuided: 0.8114754098360656
+Global: 0.7016949152542372
+SLS: 0.676271186440678
+Lasso: 0.6932203389830508
+iCARE: 0.6830508474576271
+eGuided: 0.676271186440678
 =====================================
 
 Iteration 2
 Number of Initial Features: 4
 =====================================
 ROC-AUC Score:
-Global: 0.8235542568777628
-SLS: 0.8235542568777628
-Lasso: 0.7540421487757062
-iCARE: 0.8187367961781801
-eGuided: 0.7066148573684717
+Global: 0.5730269766932773
+SLS: 0.5640682583220743
+Lasso: 0.545659045952916
+iCARE: 0.5560230577246291
+eGuided: 0.5458108827144124
 Accuracy Score:
-Global: 0.8234972677595629
-SLS: 0.8234972677595629
-Lasso: 0.7601092896174864
-iCARE: 0.8196721311475409
-eGuided: 0.7174863387978142
+Global: 0.6949152542372881
+SLS: 0.6915254237288135
+Lasso: 0.6813559322033897
+iCARE: 0.6898305084745763
+eGuided: 0.6864406779661016
 =====================================
 
 Iteration 3
 Number of Initial Features: 6
 =====================================
 ROC-AUC Score:
-Global: 0.8323638965802405
-SLS: 0.8164684210879907
-Lasso: 0.8271478101456665
-iCARE: 0.8401148679077555
-eGuided: 0.8274063414019721
+Global: 0.5638452892646859
+SLS: 0.5588635334044469
+Lasso: 0.5354425114869081
+iCARE: 0.55167391334331
+eGuided: 0.5475697160863028
 Accuracy Score:
-Global: 0.8316939890710383
-SLS: 0.8163934426229508
-Lasso: 0.826775956284153
-iCARE: 0.8398907103825136
-eGuided: 0.826775956284153
+Global: 0.7135593220338983
+SLS: 0.7101694915254237
+Lasso: 0.6949152542372882
+iCARE: 0.7067796610169491
+eGuided: 0.7101694915254237
 =====================================
 
 Iteration 4
 Number of Initial Features: 8
 =====================================
 ROC-AUC Score:
-Global: 0.8481545002316355
-SLS: 0.8481545002316355
-Lasso: 0.8411379057150409
-iCARE: 0.8469664413912289
-eGuided: 0.8130804801194511
+Global: 0.5797502122037724
+SLS: 0.5701688724908538
+Lasso: 0.5658827923607429
+iCARE: 0.5736863251104737
+eGuided: 0.5848817911511409
 Accuracy Score:
-Global: 0.8469945355191257
-SLS: 0.8469945355191257
-Lasso: 0.8398907103825136
-iCARE: 0.8453551912568307
-eGuided: 0.8120218579234972
+Global: 0.7135593220338983
+SLS: 0.7084745762711864
+Lasso: 0.7084745762711864
+iCARE: 0.7135593220338982
+eGuided: 0.71864406779661
 =====================================
 
 Iteration 5
 Number of Initial Features: 10
 =====================================
 ROC-AUC Score:
-Global: 0.8517830484126027
-SLS: 0.8517830484126027
-Lasso: 0.8517830484126027
-iCARE: 0.8517830484126027
-eGuided: 0.8517830484126027
+Global: 0.5886702343831862
+SLS: 0.5886702343831862
+Lasso: 0.5886702343831862
+iCARE: 0.5886702343831862
+eGuided: 0.5886702343831862
 Accuracy Score:
-Global: 0.855737704918033
-SLS: 0.855737704918033
-Lasso: 0.855737704918033
-iCARE: 0.855737704918033
-eGuided: 0.855737704918033
-=====================================
+Global: 0.7389830508474576
+SLS: 0.7389830508474576
+Lasso: 0.7389830508474576
+iCARE: 0.7389830508474576
+eGuided: 0.7389830508474576
