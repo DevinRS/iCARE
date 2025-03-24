@@ -4,13 +4,13 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
-src = 'ExperimentData\Heart Failure Prediction Dataset - Preprocessed.csv'
+src = 'ExperimentData/Heart Failure Prediction - Preprocessed.csv'
 
 df = pd.read_csv(src)
 
-starting_features = ['Age', 'Sex', 'RestingBP', 'RestingECG', 'MaxHR', 'Oldpeak', 'Cholesterol', 'FastingBS', 'ExerciseAngina', 'ChestPainType', 'ST_Slope']
+starting_features = ['age', 'sex', 'smoking', 'platelets', 'diabetes', 'creatinine_phosphokinase', 'serum_sodium', 'anaemia', 'high_blood_pressure', 'serum_creatinine', 'ejection_fraction']
 starting_feature_size = [2, 4, 6, 8, 10]
-target = 'HeartDisease'
+target = 'DEATH_EVENT'
 
 accuracy_result = []
 roc_result = []
